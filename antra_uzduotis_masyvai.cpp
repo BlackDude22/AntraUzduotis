@@ -1,9 +1,70 @@
-#include <algorithm>
-#include <array>
 #include <iostream>
 #include <iomanip>
 #include <random>
 #include <time.h>
+
+class fakeVector {
+private:
+    int nSize = 1, elementCount = 0;
+    int* arr = new int[nSize];
+    void increaseVector();
+public:
+    void pushBack(int);
+    void popBack();
+    void sortVector();
+    void print();
+    int getSize(){return elementCount;}
+    int get(int);
+};
+
+void fakeVector::pushBack(int n){
+    if (elementCount < nSize)
+        arr[elementCount] = n;
+    else {
+        increaseVector();
+        arr[elementCount] = n;
+    }
+    elementCount++;
+}
+
+void fakeVector::popBack(){
+    if (elementCount > 0){
+        arr[elementCount] = 0;
+        elementCount--;
+    }
+}
+
+void fakeVector::increaseVector(){
+    nSize *= 2;
+    int* nArr = new int[nSize];
+    for (int i = 0; i < nSize/2; i++){
+        nArr[i] = arr[i];
+    }
+    delete[] arr;
+    arr = nArr;
+}
+
+void fakeVector::print(){
+    for (int i = 0; i < elementCount; i++){
+        std::cout << i+1 << ". " << arr[i] << std::endl;
+    }
+}
+
+int fakeVector::get(int i){
+    return arr[i];
+}
+
+void fakeVector::sortVector(){
+    for (int i = 0; i < elementCount-1; i++){
+        for (int j = i+1; j < elementCount; j++){
+            if (arr[j] < arr[i]){
+                int temp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp;
+            }
+        }
+    }
+}
 
 int main()
 {
@@ -27,42 +88,42 @@ int main()
     std::cout << std::endl;
     std::cout << "Namu darbu pazymiai: " << std::endl;
 
-    std::vector<int> nDarbas;
-
+    fakeVector nDarbas;
     if (generuoti == 'n' || generuoti == 'N'){
         int i = 0;
         while (true){
             int temp;
             std::cout << i+1 << ". ";
             std::cin >> temp;
-            nDarbas.push_back(temp);
-            if (nDarbas[i] == 0 && i == 0){
-                nDarbas.pop_back();
+            nDarbas.pushBack(temp);
+            if (nDarbas.get(i) == 0 && i == 0){
+                nDarbas.popBack();
                 std::cout << "Iveskite bent viena pazymi!" << std::endl;
             }
-            else if (nDarbas[i] == 0){
-                nDarbas.pop_back();
+            else if (nDarbas.get(i) == 0){
+                nDarbas.popBack();
                 break;
                 }
-            else if (nDarbas[i] > 10 || nDarbas[i] < 1){
+            else if (nDarbas.get(i) > 10 || nDarbas.get(i) < 1){
+                nDarbas.popBack();
                 std::cout << "Tokio pazymio negali buti!" << std::endl;
             }
             else i++;
         }
     }
     else if (generuoti == 't' || generuoti == 'T'){
-        int i = 0;
+       int i = 0;
         std::mt19937 mt(time(nullptr));
         std::uniform_int_distribution<int> mark(0,10);
         while (true){
-            nDarbas.push_back(mark(mt));
-            std::cout << i+1 << ". " << nDarbas[i] << std::endl;
-            if (nDarbas[i] == 0 && i == 0){
-                nDarbas.pop_back();
+            nDarbas.pushBack(mark(mt));
+            std::cout << i+1 << ". " << nDarbas.get(i) << std::endl;
+            if (nDarbas.get(i) == 0 && i == 0){
+                nDarbas.popBack();
                 std::cout << "Iveskite bent viena pazymi!" << std::endl;
             }
-            else if (nDarbas[i] == 0){
-                nDarbas.pop_back();
+            else if (nDarbas.get(i) == 0){
+                nDarbas.popBack();
                 break;
                 }
             else i++;
@@ -76,8 +137,7 @@ int main()
         std::cin >> egzaminas;
         if (egzaminas < 1 || egzaminas > 10){
             std::cout << "Tokio pazymio negali buti!" << std::endl;
-        }
-        else break;
+        } else break;
     }
 
     char mediana;
@@ -92,17 +152,17 @@ int main()
     if(mediana == 'n' || mediana == 'N'){
         std::cout << "Galutinis balas: ";
         int galBal = 0;
-        for (int i = 0; i < (int)nDarbas.size(); i++)
-            galBal += nDarbas[i];
-        std::cout << std::fixed << std::setprecision(2) << 0.4*galBal/nDarbas.size()+0.6*egzaminas << std::endl;
+        for (int i = 0; i < nDarbas.getSize(); i++)
+            galBal += nDarbas.get(i);
+        std::cout << std::fixed << std::setprecision(2) << 0.4*galBal/nDarbas.getSize()+0.6*egzaminas << std::endl;
     }
     else if (mediana == 't' || mediana == 'T'){
         std::cout << "Galutinis balas: ";
-        std::sort(nDarbas.begin(), nDarbas.end());
+        nDarbas.sortVector();
         double galBal = 0;
-        if (nDarbas.size()%2 == 1)
-            galBal = nDarbas[nDarbas.size()/2];
-        else galBal = (double)(nDarbas[nDarbas.size()/2]+nDarbas[nDarbas.size()/2-1])/2;
+        if (nDarbas.getSize()%2 == 1)
+            galBal = nDarbas.get(nDarbas.getSize()/2);
+        else galBal = (double)(nDarbas.get(nDarbas.getSize()/2)+nDarbas.get(nDarbas.getSize()/2-1)/2);
         std::cout << std::fixed << std::setprecision(2) << 0.4*galBal+0.6*egzaminas << std::endl;
     }
 }
