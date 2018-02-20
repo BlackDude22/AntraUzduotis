@@ -3,7 +3,7 @@
 #include <random>
 #include <time.h>
 
-class fakeVector {
+class FakeVector {
 private:
     int nSize = 1, elementCount = 0;
     int* arr = new int[nSize];
@@ -17,7 +17,7 @@ public:
     int get(int);
 };
 
-void fakeVector::pushBack(int n){
+void FakeVector::pushBack(int n){
     if (elementCount < nSize)
         arr[elementCount] = n;
     else {
@@ -27,14 +27,14 @@ void fakeVector::pushBack(int n){
     elementCount++;
 }
 
-void fakeVector::popBack(){
+void FakeVector::popBack(){
     if (elementCount > 0){
         arr[elementCount] = 0;
         elementCount--;
     }
 }
 
-void fakeVector::increaseVector(){
+void FakeVector::increaseVector(){
     nSize *= 2;
     int* nArr = new int[nSize];
     for (int i = 0; i < nSize/2; i++){
@@ -44,17 +44,17 @@ void fakeVector::increaseVector(){
     arr = nArr;
 }
 
-void fakeVector::print(){
+void FakeVector::print(){
     for (int i = 0; i < elementCount; i++){
         std::cout << i+1 << ". " << arr[i] << std::endl;
     }
 }
 
-int fakeVector::get(int i){
+int FakeVector::get(int i){
     return arr[i];
 }
 
-void fakeVector::sortVector(){
+void FakeVector::sortVector(){
     for (int i = 0; i < elementCount-1; i++){
         for (int j = i+1; j < elementCount; j++){
             if (arr[j] < arr[i]){
@@ -88,7 +88,7 @@ int main()
     std::cout << std::endl;
     std::cout << "Namu darbu pazymiai: " << std::endl;
 
-    fakeVector nDarbas;
+    FakeVector nDarbas;
     if (generuoti == 'n' || generuoti == 'N'){
         int i = 0;
         while (true){
