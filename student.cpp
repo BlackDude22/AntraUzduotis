@@ -1,140 +1,143 @@
-#include <algorithm>
-#include <array>
 #include <iostream>
+#include <vector>
+#include <string>
 #include <iomanip>
 #include <random>
-#include <time.h>
 #include <fstream>
+#include <sstream>
 #include "student.h"
 #include "antra_math.h"
 
-void generateRandomMarks(std::vector<int> &marks){
-    unsigned int i = 0;
-    while (true){
-        marks.push_back(getRandom(0, 10));
-        std::cout << i+1 << ". " << marks[i] << std::endl;
-        if (marks[i] == 0 && i == 0){
-           marks.pop_back();
-           std::cout << "Iveskite bent viena pazymi!" << std::endl;
+void addStudent(Student &stud, std::string name, std::string lastName, std::vector<int> &marks, int exam){
+    stud.vardas = name;
+    stud.pavarde = lastName;
+    stud.nDarbas = marks;
+    stud.egzaminas = exam;
+}
+
+void sortStudentByName(std::vector<Student> &stud){
+    for (unsigned int i = 0; i < stud.size()-1; i++)
+        for (unsigned int j = i+1; j < stud.size(); j++){
+            if (stud[i].pavarde.compare(stud[j].pavarde) > 0)
+                std::swap(stud[i], stud[j]);
+            else if(stud[i].pavarde.compare(stud[j].pavarde) == 0 && stud[i].vardas.compare(stud[j].vardas) > 0)
+                std::swap(stud[i], stud[j]);
         }
-        else if (marks[i] == 0){
-            marks.pop_back();
+}
+
+void printStudent(std::vector<Student> &stud){
+    const int width = 20, prec = 2;
+    sortStudentByName(stud);
+    std::cout << std::setw(width) << "Pavarde" << std::setw(width) <<  "Vardas"
+    << std::setw(width) << "Galutinis-vidurkis" << std::setw(width) << "Galutinis-mediana" << std::endl;
+    for (unsigned int i = 0; i < stud.size(); i++)
+        std::cout << std::setw(width) << stud[i].pavarde << std::setw(width) << stud[i].vardas
+        << std::setw(width) << std::fixed << std::setprecision(prec) << average(stud[i].nDarbas)*0.4+stud[i].egzaminas*0.6 
+        << std::setw(width) << std::fixed << std::setprecision(prec) << median(stud[i].nDarbas)*0.4+stud[i].egzaminas*0.6 << std::endl;
+}
+
+void addStudentUI(Student &stud){
+    std::string name, lastName, temp;
+    std::vector<int> marks;
+    int exam, tempInt;
+    bool generateLogic = false;
+    
+    std::cout << "Vardas: "; std::cin >> name;
+    std::cout << "Pavarde: "; std::cin >> lastName;
+    while (true){
+        std::cout << "Ar norite generuoti pazymius atsitiktinai? (y/n): "; std::cin >> temp;
+        if (temp.compare("y") == 0 || temp.compare("Y") == 0){
+            generateLogic = true;
             break;
+        } else if (temp.compare("n") == 0 || temp.compare("N") == 0){
+            break;
+        }
+    }
+    
+    std::cout << "Iveskite pazymius (noredami baigti veskite 0): " << std::endl;
+
+    if (generateLogic){
+        std::mt19937 mt(static_cast<unsigned int>(time(nullptr)));
+        std::uniform_int_distribution<int> mark(1,10);
+        for (unsigned int i = 0; i < static_cast<unsigned int>(mark(mt)); i++){
+            marks.push_back(mark(mt));
+            std::cout << i+1 << ". " << marks[i] << std::endl;
+        }  
+        exam = mark(mt);
+        std::cout << "Egzamino pazymys: " << exam << std::endl;
+    } else {
+        int i = 0;
+        while (true){
+            std::cout << i+1 << ". ";
+            if (!(std::cin >> tempInt)){
+                std::cin.clear();
+                std::cin.ignore();
+                std::cout << "Invalid input!" << std::endl;
+            } else {
+                if (tempInt <= 10 && tempInt >= 1){
+                    marks.push_back(tempInt);
+                    i++;
+                }   
+                else if (tempInt == 0)
+                    break;
+                else std::cout << "Invalid input!" << std::endl;
             }
-        else i++;
-    }
-}
-
-void generateMarks(std::vector<int> &marks){
-    int i = 0;
-    while (true){
-        int temp;
-        std::cout << i+1 << ". ";
-        if (!(std::cin >> temp)){
-            std::cin.clear();
-            std::cin.ignore();
         }
-        if (temp == 0 && i == 0){
-            std::cout << "Iveskite bent viena pazymi!" << std::endl;
-        }
-        else if (temp == 0){
-            break;
+        while (true){
+            int j = 0;
+            std::cout << "Egzamino pazymys: ";
+            if (!(std::cin >> tempInt)){
+                std::cin.clear();
+                std::cin.ignore();
+                std::cout << "Invalid input!" << std::endl;
+            } else {
+                if (tempInt <= 10 && tempInt >= 1){
+                    exam = tempInt;
+                    break;
+                }   
+                else if (tempInt == 0 && j == 0)
+                    std::cout << "Invalid input!" << std::endl;
             }
-        else if (temp > 10 || temp < 1){
-            std::cout << "Tokio pazymio negali buti!" << std::endl;
-        }
-        else {
-            marks.push_back(temp);
-            i++;
         }
     }
-}
-
-void addStudent(Student &stud){
-    std::cout << std::endl;
-    std::cout << "Studento vardas: ";
-    std::cin >> stud.vardas;
-
-    std::cout << "Studento pavarde: ";
-    std::cin >> stud.pavarde;
-
-    char generuoti;
-    while (true){
-        std::cout << "Ar norite generuoti pazymius atsitiktinai?(t/n): ";
-        std::cin >> generuoti;
-        if (generuoti == 't' || generuoti == 'T' || generuoti == 'n' || generuoti == 'N')
-            break;
-        else std::cout << "Tokio atsakymo nera!" << std::endl;
-    }
-
-    std::cout << std::endl;
-    std::cout << "Namu darbu pazymiai (Noredami baigti iveskite 0): " << std::endl;
-
-    if (generuoti == 'n' || generuoti == 'N'){
-        generateMarks(stud.nDarbas);
-        while(true){
-        	std::cout << "Egzamino pazymys: ";
-        	if (!(std::cin >> stud.egzaminas)){
-            	std::cin.clear();
-            	std::cin.ignore();
-        	}
-        	if (stud.egzaminas < 1 || stud.egzaminas > 10){
-            	std::cout << "Tokio pazymio negali buti!" << std::endl;
-        	}
-        	else break;
-    	}
-    }
-    else if (generuoti == 't' || generuoti == 'T'){
-        generateRandomMarks(stud.nDarbas);
-        stud.egzaminas = getRandom(1,10);
-    }
-
-    std::cout << std::endl;
-}
-
-void printStudent(Student &stud){
-    const int widthLong = 20;
-    std::cout << std::setw(widthLong) << stud.pavarde << std::setw(widthLong) <<  stud.vardas <<
-                 std::setw(widthLong) << std::fixed << std::setprecision(2) << average(stud.nDarbas)/**0.4+stud.egzaminas*0.6*/ <<
-                 std::setw(widthLong) << std::fixed << std::setprecision(2) << median(stud.nDarbas)*0.4+stud.egzaminas*0.6 << std::endl;
-}
-
-void printStudentInfo(){
-    const int widthLong = 20;
-    std::cout << std::setw(widthLong) << "Pavarde" << std::setw(widthLong) <<  "Vardas" <<
-                 std::setw(widthLong) << "Galutinis-vidurkis" << std::setw(widthLong) << "Galutinis-mediana" << std::endl;
+    addStudent(stud, name, lastName, marks, exam);
 }
 
 void readStudentsFromFile(std::vector<Student> &stud, std::string fileName){
     std::ifstream inf(fileName);
-    if (inf.good()) {
+    if (inf.good()){
         std::string singleLine;
-        while(getline(inf, singleLine)) {
-            std::istringstream ss(singleLine);
+        while (getline(inf, singleLine)){
             std::vector<std::string> words;
+            std::istringstream ss(singleLine);
             std::string temp;
             while (ss >> temp)
                 words.push_back(temp);
-            if (words.size() > 3) {            
+            if (words.size() > 3) {
                 std::string name = words[0], lastName = words[1];
                 std::vector<int> marks;
                 for (unsigned int i = 2; i < words.size()-1; i++)
-                    marks.push_back(stoi(words[i]));
-                int exam = stoi(words[static_cast<unsigned int>(words.size()-1)]);
+                    marks.push_back(std::stoi(words[i]));
+                int exam = 5;
                 stud.push_back(Student());
-                stud[static_cast<unsigned int>(stud.size()-1)] = {name, lastName, marks, exam};
+                addStudent(stud[static_cast<unsigned int>(stud.size()-1)],name, lastName, marks, exam);
             }
         }
+
+    }else{
+        std::cout << "Failed to read from " + fileName << std::endl;
     }
-    inf.close();
 }
 
-void createStudentFile(int fSize, std::string fileName){
+void createStudentFile(unsigned int fSize, std::string fileName){
+    std::mt19937 mt(static_cast<unsigned int>(time(nullptr)));
+    std::uniform_int_distribution<int> mark(1,10);
     std::ofstream outf(fileName);
     for (unsigned int i = 0; i < fSize; i++){
-        outf << "Vardas"+std::to_string(i)+" Pavarde"+std::to_string(i)+" ";
-        for (unsigned int j = 0; j < getRandom(2, 10); j++)
-            outf << std::to_string(getRandom(1,10))+" ";
+        outf << "Pavarde" << i << " Vardas" << i << " ";
+        for (int j = 0; j < mark(mt)+1; j++)
+            outf << mark(mt) << " ";
         outf << std::endl;
     }
+    outf.close();
 }
