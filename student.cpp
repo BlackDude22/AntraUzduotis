@@ -111,7 +111,7 @@ void addStudentUI(Student &stud){
 
 void readStudentsFromFile(std::vector<Student> &stud, std::string fileName){
     std::ifstream inf;
-    inf.exceptions ( std::ifstream::failbit | std::ifstream::badbit );
+    inf.exceptions ( std::ifstream::failbit);
     try{
         inf.open(fileName);
         std::string singleLine;
@@ -129,14 +129,17 @@ void readStudentsFromFile(std::vector<Student> &stud, std::string fileName){
                 std::vector<int> marks;
                 for (unsigned int i = 2; i < words.size()-1; i++)
                     marks.push_back(std::stoi(words[i]));
-                int exam = 5;
+                int exam = std::stoi(words[words.size()-1]);
                 stud.push_back(Student());
                 addStudent(stud[static_cast<unsigned int>(stud.size()-1)],name, lastName, marks, exam);
             }
         }
-
-    } catch (const std::exception& e){
-        std::cout << "Failed to read from " + fileName << std::endl;
+        inf.close();
+    } catch (std::ifstream::failure f){
+        // sitas labai letina programos darba
+        if (!inf.eof())
+            std::cout << "Failed to read from " + fileName << std::endl;
+        inf.clear();
     }
 }
 
@@ -146,10 +149,10 @@ void createStudentFile(unsigned int fSize, std::string fileName){
     std::ofstream outf(fileName);
     //generuojamas studento irasas
     for (unsigned int i = 0; i < fSize; i++){
-        outf << "Pavarde" << i << " Vardas" << i << " ";
+        outf << "Pavarde" << i << " Vardas" << i;
         //sugeneruojamas atsitiktinis skaicius atsitiktiniu pazymiu
         for (int j = 0; j < mark(mt)+1; j++)
-            outf << mark(mt) << " ";
+            outf << " " << mark(mt);
         outf << std::endl;
     }
     outf.close();
