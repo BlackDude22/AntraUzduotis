@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <vector>
+#include <chrono>
 #include "antra_math.h"
 
 double average(std::vector<int> &arr){
@@ -15,3 +16,8 @@ double median(std::vector<int> &arr){
         return arr[arr.size()/2];
     else return static_cast<double>(arr[arr.size()/2]+arr[arr.size()/2-1])/2;
 }
+
+std::chrono::high_resolution_clock::time_point getTime(){
+    return std::chrono::high_resolution_clock::now();
+}
+
