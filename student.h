@@ -14,6 +14,8 @@ struct Student{
         std::string pavarde;
         int egzaminas;
         std::vector<int> nDarbas;
+        double average;
+        double median;
 };
 
 void addStudent(Student &, std::string, std::string, std::vector<int> &, int);
@@ -23,13 +25,14 @@ bool customCompare(Student &, Student &);
 
 template <typename T> void printStudent(T &stud){
     const int width = 20, prec = 2;
+    sortContainer(stud);
     std::cout << std::setw(width) << "Pavarde" << std::setw(width) <<  "Vardas"
     << std::setw(width) << "Galutinis-vidurkis" << std::setw(width) << "Galutinis-mediana" << std::endl;
     //isvardijami visi vectoriuje stud saugomi studentai
-    for (auto& i: stud)
+    for (const auto& i: stud)
         std::cout << std::setw(width) << i.pavarde << std::setw(width) << i.vardas
-        << std::setw(width) << std::fixed << std::setprecision(prec) << average(i.nDarbas)*0.4+i.egzaminas*0.6 
-        << std::setw(width) << std::fixed << std::setprecision(prec) << median(i.nDarbas)*0.4+i.egzaminas*0.6 << std::endl;
+        << std::setw(width) << std::fixed << std::setprecision(prec) << i.average*0.4+i.egzaminas*0.6 
+        << std::setw(width) << std::fixed << std::setprecision(prec) << i.median*0.4+i.egzaminas*0.6 << std::endl;
 }
 template <typename T> void readStudentsFromFile(T &stud, std::string fileName){
     std::ifstream inf;

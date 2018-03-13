@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <vector>
 #include <chrono>
+#include <string>
 #include "antra_math.h"
 
 double average(std::vector<int> &arr){
@@ -21,3 +22,6 @@ std::chrono::high_resolution_clock::time_point getTime(){
     return std::chrono::high_resolution_clock::now();
 }
 
+bool hasOnlyDigits(std::string s){
+  return s.find_first_not_of( "0123456789" ) == std::string::npos;
+}
