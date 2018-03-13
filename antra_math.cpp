@@ -2,6 +2,7 @@
 #include <vector>
 #include <chrono>
 #include <string>
+#include <iostream>
 #include "antra_math.h"
 
 double average(std::vector<int> &arr){
@@ -24,4 +25,18 @@ std::chrono::high_resolution_clock::time_point getTime(){
 
 bool hasOnlyDigits(std::string s){
   return s.find_first_not_of( "0123456789" ) == std::string::npos;
+}
+
+std::string safeInput(){
+    std::string input;
+    getline(std::cin, input);
+    std::cin.clear();
+    return input;
+}
+
+int safeIntInput(){
+    std::string input = safeInput();
+    if (hasOnlyDigits(input))
+        return std::stoi(input);
+    else throw "Ivestas ne sveikasis skaicius";
 }

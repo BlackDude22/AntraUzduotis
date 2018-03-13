@@ -20,18 +20,18 @@ void addStudent(Student &stud, std::string name, std::string lastName, std::vect
 void addStudentUI(Student &stud){
     std::string name, lastName, temp;
     std::vector<int> marks;
-    int exam;
+    int exam, tempInt;
     bool generateLogic = false;
     
     std::cout << "Vardas: ";
-    std::getline(std::cin, name);
+    name = safeInput();
     std::cout << "Pavarde: ";
-    std::getline(std::cin, lastName);
+    lastName = safeInput();
     //ivedama atsitiktinio generavimo logika
     //vedama tol kol ivedamas tinkamas atsakymas
     while (true){
         std::cout << "Ar norite generuoti pazymius atsitiktinai? (y/n): ";
-        std::getline(std::cin, temp);
+        temp = safeInput();
         if (temp.compare("y") == 0 || temp.compare("Y") == 0){
             generateLogic = true;
             break;
@@ -56,35 +56,30 @@ void addStudentUI(Student &stud){
         //ranka ivedami duomenys tol kol nutraukiamas ciklas
         while (true){
             std::cout << i+1 << ". ";
-            if (!getline(std::cin, temp)){
-                std::cin.clear();
-                std::cin.ignore();
-                std::cout << "Tokio pazymio negali buti!" << std::endl;
-            } else {
-                if (hasOnlyDigits(temp)){
-                    int tempInt = std::stoi(temp);
-                    if (tempInt <= 10 && tempInt >= 1){
-                        marks.push_back(tempInt);
-                        i++;
-                    } else if (tempInt == 0 && i == 0)
-                        break;
-                } else std::cout << "Tokio pazymio negali buti!" << std::endl;
+            try {
+                tempInt = safeIntInput();
+                if (tempInt <= 10 && tempInt >= 1){
+                    marks.push_back(tempInt);
+                    i++;
+                } else if (tempInt == 0 && i == 0){
+                    std::cout << "Iveskite bent viena pazymi!" << std::endl;
+                } else if (tempInt == 0 && i != 0){
+                    break;
+                } else std::cout << "Tokio pazymio negali buti" << std::endl;
+            } catch (const char* msg){
+                std::cout << msg << std::endl;
             }
         }
         while (true){
             std::cout << "Egzamino pazymys: ";
-            if (!getline(std::cin, temp)){
-                std::cin.clear();
-                std::cin.ignore();
-                std::cout << "Tokio pazymio negali buti!" << std::endl;
-            } else {
-                if (hasOnlyDigits(temp)){
-                    int tempInt = std::stoi(temp);
-                    if (tempInt <= 10 && tempInt >= 1){
-                        exam = tempInt;
-                        break;
-                    } 
+            try{
+                tempInt = safeIntInput();
+                if (tempInt <= 10 && tempInt >= 1){
+                    exam = tempInt;
+                    break;
                 } else std::cout << "Tokio pazymio negali buti!" << std::endl;
+            } catch (const char* msg){
+                std::cout << msg << std::endl;
             }
         }
     }

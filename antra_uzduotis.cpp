@@ -8,7 +8,7 @@
 #include "student.h"
 #include "antra_math.h"
 
-template<typename T> void fileTest(int fileCount){
+template<typename T> void fileTest1(int fileCount){
     const int width = std::max(fileCount+2, 10);
     std::cout << std::setw(width) << std::right << " File size | Duration " << std::endl;
     for (int i = 1; i <= fileCount; i++){
@@ -29,6 +29,37 @@ template<typename T> void fileTest(int fileCount){
     }
 }
 
+template<typename T> void fileTest2(int fileCount){
+    const int width = std::max(fileCount+2, 10);
+    std::cout << std::setw(width) << std::right << " File size | Duration " << std::endl;
+    for (int i = 1; i <= fileCount; i++){
+        auto start = getTime();
+        T students;
+        const std::string fileName = "kursiokai" + std::to_string(i) + ".txt";
+        readStudentsFromFile(students, fileName);
+        sortContainer(students);
+        const size_t s = students.size();
+        T losers;
+        unsigned int j = 0;
+        std::vector<int> toErase;
+        for (auto& v : students){
+            if (v.average < 6){
+                losers.push_back(v);
+                toErase.push_back(j);
+            }
+            j++;
+        }
+        std::reverse(toErase.begin(), toErase.end());
+        for (auto& v : toErase){
+            auto it = students.begin();
+            advance(it, v);
+            students.erase(it);
+        } 
+        auto end = getTime();
+        std::cout << std::setw(width) << s << " | "<< std::chrono::duration<double>(end-start).count() << "s" << std::endl;
+    }
+}
+
 int main(){
     // sugeneruojami 4 duomenu failai failai
 
@@ -42,8 +73,7 @@ int main(){
         std::cout << "4: Isvesti duomenu lentele" << std::endl;
         std::cout << "5: Testuoti konteinerius" << std::endl;
         std::cout << "Pasirinkite veiksma: ";
-        getline(std::cin, action);
-        std::cout << std::endl;
+        action = safeInput();
 
         if (action.compare("1") == 0){
             studentVector.push_back(Student());
@@ -51,25 +81,27 @@ int main(){
         } else if (action.compare("2") == 0){
             std::string fileName;
             std::cout << "Iveskite failo pavadinima: ";
-            getline(std::cin, fileName);
-            readStudentsFromFile(studentVector, fileName);
+            fileName = safeInput();
         } else if (action.compare("3") == 0){
-            std::string fileName, fileSize;
+            std::string fileName;
+            int fileSize;
             std::cout << "Iveskite failo pavadinima: ";
-            getline(std::cin, fileName);
+            fileName = safeInput();
             std::cout << "Iveskite studentu skaiciu: ";
-            getline(std::cin, fileSize);
-            if (hasOnlyDigits(fileSize))
-                createStudentFile(std::stoi(fileSize), fileName);
-            else std::cout << "Tokio atsakymo negali buti!" << std::endl;
+            try {
+                fileSize = safeIntInput();
+                createStudentFile(static_cast<unsigned int>(fileSize), fileName);
+            } catch (const char* msg){
+                std::cout << msg << std::endl;
+            }
         } else if (action.compare("4") == 0){
             printStudent(studentVector);
         } else if (action.compare("5") == 0){
-            std::string fileCount;
+            int fileCount;
             std::cout << "Iveskite didziausio failo dydzio laipsni(10^n): ";
-            getline(std::cin, fileCount);
-            if (hasOnlyDigits(fileCount)){
-                for (int i = 1; i <= std::stoi(fileCount); i++){
+            try {
+                fileCount = safeIntInput();
+                for (int i = 1; i <= static_cast<int>(fileCount); i++){
                     auto start = getTime();
                     const std::string fileName = "kursiokai" + std::to_string(i) + ".txt";
                     std::cout << "generuojamas failas " + fileName + "..." << std::endl;
@@ -79,15 +111,29 @@ int main(){
                 }
 
                 //visi 4 failai nuskaitomi ir apdorojami su vectoriumi, list ir deque
+                std::cout << std::endl << "Pirma strategija: " << std::endl;
                 std::cout << " Vector: " << std::endl;
-                fileTest<std::vector<Student>>(std::stoi(fileCount));
+                fileTest1<std::vector<Student>>(fileCount);
 
                 std::cout << " List: " << std::endl;
-                fileTest<std::list<Student>>(std::stoi(fileCount));
+                fileTest1<std::list<Student>>(fileCount);
 
                 std::cout << " Deque: " << std::endl;
-                fileTest<std::deque<Student>>(std::stoi(fileCount));
+                fileTest1<std::deque<Student>>(fileCount);
+
+                std::cout << std::endl << "Antra strategija: " << std::endl;
+                std::cout << " Vector: " << std::endl;
+                fileTest2<std::vector<Student>>(fileCount);
+
+                std::cout << " List: " << std::endl;
+                fileTest2<std::list<Student>>(fileCount);
+
+                std::cout << " Deque: " << std::endl;
+                fileTest2<std::deque<Student>>(fileCount);
+            } catch (const char* msg){
+                std::cout << msg << std::endl;
             }
+                
         } else if (action.compare("0") == 0){
             break;
         } else 
