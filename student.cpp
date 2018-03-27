@@ -8,16 +8,7 @@
 #include "student.h"
 #include "antra_math.h"
 
-void addStudent(Student &stud, std::string name, std::string lastName, std::vector<int> &marks, int exam){
-    stud.vardas = name;
-    stud.pavarde = lastName;
-    stud.nDarbas = marks;
-    stud.egzaminas = exam;
-    stud.average = average(marks);
-    stud.median = median(marks);
-}
-
-void addStudentUI(Student &stud){
+void addStudentUI(std::vector<Student> &stud){
     std::string name, lastName, temp;
     std::vector<int> marks;
     int exam, tempInt;
@@ -83,7 +74,12 @@ void addStudentUI(Student &stud){
             }
         }
     }
-    addStudent(stud, name, lastName, marks, exam);
+    try {
+        addStudent(stud, name, lastName, marks, exam);
+    } catch (const char* msg){
+        std::cout << msg << std::endl;
+    }
+    
 }
 
 void createStudentFile(unsigned int fSize, std::string fileName){

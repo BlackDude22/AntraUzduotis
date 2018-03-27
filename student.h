@@ -18,10 +18,28 @@ struct Student{
         double median;
 };
 
-void addStudent(Student &, std::string, std::string, std::vector<int> &, int);
-void addStudentUI(Student &);
+void addStudentUI(std::vector<Student> &);
 void createStudentFile(unsigned int, std::string);
 bool customCompare(Student &, Student &);
+
+template <typename T> void addStudent(T &stud, std::string name, std::string lastName, std::vector<int> marks, int exam){
+    if (name.empty())
+        throw "Neivestas vardas";
+    else if (lastName.empty())
+        throw "Neivesta pavarde";
+    else if (marks.size() == 0)
+        throw "Neivestas ne vienas pazymys";
+    else {
+        Student student;
+        student.vardas = name;
+        student.pavarde = lastName;
+        student.nDarbas = marks;
+        student.egzaminas = exam;
+        student.average = average(marks);
+        student.median = median(marks);
+        stud.push_back(student);
+    }
+}
 
 template <typename T> void printStudent(T &stud){
     const int width = 20, prec = 2;
@@ -55,8 +73,11 @@ template <typename T> void readStudentsFromFile(T &stud, std::string fileName){
                 for (unsigned int i = 2; i < words.size()-1; i++)
                     marks.push_back(std::stoi(words[i]));
                 int exam = std::stoi(words[words.size()-1]);
-                stud.push_back(Student());
-                addStudent(stud.back(),name, lastName, marks, exam);
+                try {
+                    addStudent(stud, name, lastName, marks, exam);
+                } catch (const char* msg){
+                    std::cout << msg << std::endl;
+                }
             }
         }
         inf.close();

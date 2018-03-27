@@ -3,13 +3,11 @@
 #include <chrono>
 #include <string>
 #include <iostream>
+#include <numeric>
 #include "antra_math.h"
 
 double average(std::vector<int> &arr){
-    int sum = 0;
-    for (unsigned int i = 0; i < arr.size(); i++)
-        sum += arr[i];
-    return static_cast<double>(sum)/arr.size();
+    return std::accumulate(arr.begin(), arr.end(), 0.0)/arr.size();
 }
 
 double median(std::vector<int> &arr){
