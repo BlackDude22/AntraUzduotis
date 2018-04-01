@@ -15,7 +15,7 @@ Programa galima:
 ## Programos naudojimas
 
 Paleidę šią programą pamatysite meniu:
-!(https://github.com/BlackDude22/AntraUzduotis/blob/master/images/menu.png)
+![alt text](https://github.com/BlackDude22/AntraUzduotis/blob/master/images/menu.png "Meniu")
 Veiksmai 0-4 turėtų savaime suprantami. Veiksmas 5 prašo įvesti sveikąjį skaičių, kuris nurodo, kiek failų bus sugeneruota. Kiekvieną failą sudaro 10^n eilučių su studentų įrašais. Po to pasirenkate norimą konteinerio tipą ir programa jį išbandys su visais sugeneruotais failais dviem strategijomis:
   1. Studentai nuskaitomi į vieną konteinerį `students` paskui vieni įrašomi į `losers` kiti į `winners`.
   2. Studentai nuskaitomi į vieną konteinerį `students`, įrašai surikiuojami, paskui vieni įrašomi į `losers` ir ištrinami iš `students`.
