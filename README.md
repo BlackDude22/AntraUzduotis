@@ -27,3 +27,7 @@ Programa nurodo laiką bandant abi strategijas.
 ![alt text](https://github.com/BlackDude22/AntraUzduotis/blob/master/images/list.png "List")
 ![alt text](https://github.com/BlackDude22/AntraUzduotis/blob/master/images/deque.png "Deque")
 
+## Programos įdiegimas
+
+## Versijų istorija
+
