@@ -24,8 +24,6 @@ Veiksmai 0-4 turėtų savaime suprantami. Veiksmas 5 prašo įvesti sveikąjį s
 Programa nurodo laiką bandant abi strategijas.
 
 ![alt text](https://github.com/BlackDude22/AntraUzduotis/blob/master/images/vector.png "Vector")
-
 ![alt text](https://github.com/BlackDude22/AntraUzduotis/blob/master/images/list.png "List")
-
-![alt text](https://github.com/BlackDude22/AntraUzduotis/blob/master/images/deque.png "Deque)
+![alt text](https://github.com/BlackDude22/AntraUzduotis/blob/master/images/deque.png "Deque")
 
