@@ -39,4 +39,10 @@ Programa nurodo laiką bandant abi strategijas.
     
 ## Versijų istorija
 
-### [**v1.0**](https://github.com/BlackDude22/AntraUzduotis/releases/tag/v1.0)<br>
+### [**v1.0**](https://github.com/BlackDude22/AntraUzduotis/releases/tag/v1.0)<br>(naujausia versija)
+
+#### Pridėta
+  1. UI
+  2. SafeInput
+  3. SafeIntInput
+
