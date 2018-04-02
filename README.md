@@ -33,11 +33,9 @@ Programa nurodo laiką bandant abi strategijas.
   2. Extract'inkite failus į pasirinktą vietą.
   3. Atsidarę norimą terminalą (pvz. Windows PowerShell) įveskite:
   
-    `cd <pasirinktas adresas>`
-  
-    `g++ -std=c++11 *.cpp`
-    
-    `./a`
+    cd <pasirinktas adresas>
+    g++ -std=c++11 *.cpp  
+    ./a
     
   
   
