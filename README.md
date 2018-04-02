@@ -29,5 +29,18 @@ Programa nurodo laiką bandant abi strategijas.
 
 ## Programos įdiegimas
 
+  1. Atsisiųskite naujausią programos versiją.
+  2. Extract'inkite failus į pasirinktą vietą.
+  3. Atsidarę norimą terminalą (pvz. Windows PowerShell) įveskite:
+  
+    `cd <pasirinktas adresas>`
+  
+    `g++ -std=c++11 *.cpp`
+    
+    `./a`
+    
+  
+  
+
 ## Versijų istorija
 
