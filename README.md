@@ -29,7 +29,7 @@ Programa nurodo laiką bandant abi strategijas.
 
 ## Programos įdiegimas
 
-  1. Atsisiųskite naujausią programos versiją.
+  1. Atsisiųskite [**naujausią programos versiją.**](https://github.com/BlackDude22/AntraUzduotis/releases)<br>
   2. Extract'inkite failus į pasirinktą vietą.
   3. Atsidarę norimą terminalą (pvz. Windows PowerShell) įveskite:
   
@@ -37,8 +37,5 @@ Programa nurodo laiką bandant abi strategijas.
     g++ -std=c++11 *.cpp  
     ./a
     
-  
-  
-
 ## Versijų istorija
 
