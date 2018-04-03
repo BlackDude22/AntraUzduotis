@@ -45,5 +45,3 @@ Programa nurodo laiką bandant abi strategijas.
   1. UI
   2. SafeInput
   3. SafeIntInput
-
-@KeepinItReal1
