@@ -1,5 +1,11 @@
 # AntraUzduotis
 
+## Vertinimas
+
+
+- cmake
+- releasai
+
 ## Programos tikslas
 Programa skirta saugoti ir apdoroti studento duomenis bei išbandyti įvairius duomenų konteinerius.
 
