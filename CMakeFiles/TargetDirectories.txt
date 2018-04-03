@@ -1,0 +1,3 @@
+C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/CMakeFiles/AntraUzduotis.dir
+C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/CMakeFiles/ALL_BUILD.dir
+C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/CMakeFiles/ZERO_CHECK.dir

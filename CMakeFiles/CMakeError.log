@@ -1,0 +1,336 @@
+Determining if the unsetenv exist failed with the following output:
+Change Dir: C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e4480.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/3/2018 10:07:17 PM.
+Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_e4480.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e4480.dir\Debug\".
+  Creating directory "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e4480.dir\Debug\cmTC_e4480.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e4480.dir\Debug\cmTC_e4480.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4480.dir\Debug\\" /Fd"cmTC_e4480.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4480.dir\Debug\\" /Fd"cmTC_e4480.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+  
+c:\users\lukis\onedrive\documents\github\antrauzduotis\cmakefiles\cmaketmp\checksymbolexists.c(8): error C2065: 'unsetenv': undeclared identifier [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_e4480.vcxproj]
+Done Building Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_e4480.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_e4480.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\onedrive\documents\github\antrauzduotis\cmakefiles\cmaketmp\checksymbolexists.c(8): error C2065: 'unsetenv': undeclared identifier [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_e4480.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.97
+
+File C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7fbe8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/3/2018 10:07:20 PM.
+Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_7fbe8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7fbe8.dir\Debug\".
+  Creating directory "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7fbe8.dir\Debug\cmTC_7fbe8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7fbe8.dir\Debug\cmTC_7fbe8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fbe8.dir\Debug\\" /Fd"cmTC_7fbe8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fbe8.dir\Debug\\" /Fd"cmTC_7fbe8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+c:\users\lukis\onedrive\documents\github\antrauzduotis\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_7fbe8.vcxproj]
+Done Building Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_7fbe8.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_7fbe8.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\onedrive\documents\github\antrauzduotis\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\CMakeFiles\CMakeTmp\cmTC_7fbe8.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.70
+
+
+Checking for Large File Support failed to compile with the following output:
+Change Dir: C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a2018.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/3/2018 10:07:24 PM.
+Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a2018.dir\Debug\".
+  Creating directory "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a2018.dir\Debug\cmTC_a2018.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a2018.dir\Debug\cmTC_a2018.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_LFS_WORKS /D KWSYS_CXX_HAS_CSTDIO=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a2018.dir\Debug\\" /Fd"cmTC_a2018.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsCXX.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_LFS_WORKS /D KWSYS_CXX_HAS_CSTDIO=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a2018.dir\Debug\\" /Fd"cmTC_a2018.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+  
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(158): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj]
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(164): error C3861: 'S_ISREG': identifier not found [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj]
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(168): error C3861: 'ftello': identifier not found [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj]
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(167): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj]
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+Done Building Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(158): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj]
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(167): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj]
+
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(164): error C3861: 'S_ISREG': identifier not found [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj]
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(168): error C3861: 'ftello': identifier not found [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_a2018.vcxproj]
+
+    2 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Checking whether long and __int64 are the same type failed to compile with the following output:
+Change Dir: C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_213c6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/3/2018 10:07:29 PM.
+Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_213c6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_213c6.dir\Debug\".
+  Creating directory "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_213c6.dir\Debug\cmTC_213c6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_213c6.dir\Debug\cmTC_213c6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_SAME_LONG_AND___INT64 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_213c6.dir\Debug\\" /Fd"cmTC_213c6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsCXX.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_SAME_LONG_AND___INT64 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_213c6.dir\Debug\\" /Fd"cmTC_213c6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+  
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(70): error C2664: 'void function(long **)': cannot convert argument 1 from '__int64 **' to 'long **' [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_213c6.vcxproj]
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(70): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Done Building Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_213c6.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_213c6.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(70): error C2664: 'void function(long **)': cannot convert argument 1 from '__int64 **' to 'long **' [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_213c6.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Checking whether C compiler has ssize_t in unistd.h failed to compile with the following output:
+Change Dir: C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_18b30.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/3/2018 10:07:46 PM.
+Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_18b30.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_18b30.dir\Debug\".
+  Creating directory "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_18b30.dir\Debug\cmTC_18b30.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_18b30.dir\Debug\cmTC_18b30.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_C_HAS_SSIZE_T /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18b30.dir\Debug\\" /Fd"cmTC_18b30.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsC.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_C_HAS_SSIZE_T /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18b30.dir\Debug\\" /Fd"cmTC_18b30.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsC.c"
+  kwsysPlatformTestsC.c
+  
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestsc.c(46): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_18b30.vcxproj]
+Done Building Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_18b30.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_18b30.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestsc.c(46): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_18b30.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+Checking whether C compiler has clock_gettime failed to compile with the following output:
+Change Dir: C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_690bd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/3/2018 10:07:47 PM.
+Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_690bd.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_690bd.dir\Debug\".
+  Creating directory "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_690bd.dir\Debug\cmTC_690bd.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_690bd.dir\Debug\cmTC_690bd.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_690bd.dir\Debug\\" /Fd"cmTC_690bd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsC.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_690bd.dir\Debug\\" /Fd"cmTC_690bd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsC.c"
+  kwsysPlatformTestsC.c
+  
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestsc.c(69): warning C4013: 'clock_gettime' undefined; assuming extern returning int [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_690bd.vcxproj]
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestsc.c(69): error C2065: 'CLOCK_MONOTONIC': undeclared identifier [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_690bd.vcxproj]
+Done Building Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_690bd.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_690bd.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestsc.c(69): warning C4013: 'clock_gettime' undefined; assuming extern returning int [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_690bd.vcxproj]
+
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_690bd.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestsc.c(69): error C2065: 'CLOCK_MONOTONIC': undeclared identifier [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_690bd.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Checking whether CXX compiler has setenv failed to compile with the following output:
+Change Dir: C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f6a01.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/3/2018 10:07:48 PM.
+Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_f6a01.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f6a01.dir\Debug\".
+  Creating directory "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f6a01.dir\Debug\cmTC_f6a01.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f6a01.dir\Debug\cmTC_f6a01.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_SETENV /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f6a01.dir\Debug\\" /Fd"cmTC_f6a01.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsCXX.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_SETENV /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f6a01.dir\Debug\\" /Fd"cmTC_f6a01.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+  
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(179): error C3861: 'setenv': identifier not found [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_f6a01.vcxproj]
+Done Building Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_f6a01.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_f6a01.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(179): error C3861: 'setenv': identifier not found [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_f6a01.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+Checking whether CXX compiler has unsetenv failed to compile with the following output:
+Change Dir: C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b7eaf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.6.82.30579 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/3/2018 10:07:50 PM.
+Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_b7eaf.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b7eaf.dir\Debug\".
+  Creating directory "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b7eaf.dir\Debug\cmTC_b7eaf.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b7eaf.dir\Debug\cmTC_b7eaf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_UNSETENV /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b7eaf.dir\Debug\\" /Fd"cmTC_b7eaf.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsCXX.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26128 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_UNSETENV /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b7eaf.dir\Debug\\" /Fd"cmTC_b7eaf.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Users\lukis\Downloads\cmake-3.11.0\cmake-3.11.0\Source\kwsys\kwsysPlatformTestsCXX.cxx"
+  kwsysPlatformTestsCXX.cxx
+  
+c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(187): error C3861: 'unsetenv': identifier not found [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_b7eaf.vcxproj]
+Done Building Project "C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_b7eaf.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_b7eaf.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\users\lukis\downloads\cmake-3.11.0\cmake-3.11.0\source\kwsys\kwsysplatformtestscxx.cxx(187): error C3861: 'unsetenv': identifier not found [C:\Users\lukis\OneDrive\Documents\GitHub\AntraUzduotis\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_b7eaf.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.75
+
+

@@ -1,0 +1,1000 @@
+Pavarde0 Vardas0 4 2 1 2 5 9
+Pavarde1 Vardas1 2 1 10 2 1
+Pavarde2 Vardas2 5 9 3 2 1
+Pavarde3 Vardas3 4 10
+Pavarde4 Vardas4 3 4 7 9
+Pavarde5 Vardas5 1 9 2 4
+Pavarde6 Vardas6 10 4 8 10
+Pavarde7 Vardas7 5 8 5 5 5
+Pavarde8 Vardas8 9 9 10 2
+Pavarde9 Vardas9 3 10 3 9 3
+Pavarde10 Vardas10 8 8 1 6 3 9
+Pavarde11 Vardas11 10 4
+Pavarde12 Vardas12 10 5 8 3 6
+Pavarde13 Vardas13 5 10
+Pavarde14 Vardas14 8 4 1 7
+Pavarde15 Vardas15 8 4 9 2 4
+Pavarde16 Vardas16 7 5
+Pavarde17 Vardas17 7 7 8 6 5 1
+Pavarde18 Vardas18 5 3 6 2
+Pavarde19 Vardas19 9 2 4 7 10 5 4
+Pavarde20 Vardas20 2 4 3
+Pavarde21 Vardas21 3 2 10 10 3 5 8
+Pavarde22 Vardas22 9 9 5 7 5
+Pavarde23 Vardas23 3 1 5 3 9 5
+Pavarde24 Vardas24 3 8 10 8
+Pavarde25 Vardas25 10 10 6 5 9 6 5
+Pavarde26 Vardas26 9 7 9 4 9
+Pavarde27 Vardas27 7 10 10 2 8
+Pavarde28 Vardas28 2 3 4 10 4 1
+Pavarde29 Vardas29 8 2 1 8 1 10 5
+Pavarde30 Vardas30 1 2 4 8 1 9 2 7
+Pavarde31 Vardas31 5 8 8 9 4
+Pavarde32 Vardas32 2 2 10 5
+Pavarde33 Vardas33 5 4 5 2 9
+Pavarde34 Vardas34 5 7 8
+Pavarde35 Vardas35 6 3 9 3 1
+Pavarde36 Vardas36 1 6 10
+Pavarde37 Vardas37 5 1 9 2 9
+Pavarde38 Vardas38 8 3 10 6 9
+Pavarde39 Vardas39 1 4 6 6 6 9 7 7
+Pavarde40 Vardas40 8 1 6 3 4 5
+Pavarde41 Vardas41 6 5 4 7 2
+Pavarde42 Vardas42 9 9
+Pavarde43 Vardas43 4 8 9 9 4
+Pavarde44 Vardas44 4 5 5 2
+Pavarde45 Vardas45 6 7 4 4
+Pavarde46 Vardas46 8 10 2 7 1
+Pavarde47 Vardas47 8 5 9 1 8
+Pavarde48 Vardas48 9 3 8 1 7 8
+Pavarde49 Vardas49 10 7 5
+Pavarde50 Vardas50 1 6 8
+Pavarde51 Vardas51 3 3 2
+Pavarde52 Vardas52 1 7
+Pavarde53 Vardas53 5 3 5
+Pavarde54 Vardas54 5 2 4 2 5
+Pavarde55 Vardas55 9 3 10 6
+Pavarde56 Vardas56 10 2 6 10
+Pavarde57 Vardas57 6 7 10 1 2
+Pavarde58 Vardas58 10 8 10 10 8
+Pavarde59 Vardas59 7 4
+Pavarde60 Vardas60 3 2 7 6
+Pavarde61 Vardas61 5 8 3 3 8
+Pavarde62 Vardas62 8 10 9 4
+Pavarde63 Vardas63 6 5 4
+Pavarde64 Vardas64 9 4 9 1 1
+Pavarde65 Vardas65 8 2 3 9 5 9
+Pavarde66 Vardas66 8 6 3 10
+Pavarde67 Vardas67 6 1 3 4 4 9
+Pavarde68 Vardas68 10 7 8
+Pavarde69 Vardas69 7 7 3 9 4
+Pavarde70 Vardas70 10 5 1 4 5
+Pavarde71 Vardas71 5 4 3 8 3
+Pavarde72 Vardas72 1 5 2 2
+Pavarde73 Vardas73 8 8 2 3 2 8
+Pavarde74 Vardas74 1 7 8 8 5
+Pavarde75 Vardas75 9 1 6 2 2 3
+Pavarde76 Vardas76 6 6
+Pavarde77 Vardas77 6 1
+Pavarde78 Vardas78 1 10 5 10
+Pavarde79 Vardas79 2 10 6 6
+Pavarde80 Vardas80 1 1 7
+Pavarde81 Vardas81 10 1 8 2 8 3 10
+Pavarde82 Vardas82 10 6 1
+Pavarde83 Vardas83 5 4
+Pavarde84 Vardas84 2 9 8 4
+Pavarde85 Vardas85 10 5
+Pavarde86 Vardas86 1 2 8 7 8 3
+Pavarde87 Vardas87 10 10 9 2 5 8 2
+Pavarde88 Vardas88 7 8 1 7 2 10 1
+Pavarde89 Vardas89 1 3 10 8 2 10 3 2
+Pavarde90 Vardas90 10 10 1 9 3
+Pavarde91 Vardas91 8 7
+Pavarde92 Vardas92 9 10 4 8
+Pavarde93 Vardas93 4 1 8 7 6
+Pavarde94 Vardas94 6 1
+Pavarde95 Vardas95 4 6 5 6
+Pavarde96 Vardas96 3 10 6 6 8
+Pavarde97 Vardas97 10 2 3
+Pavarde98 Vardas98 1 9 3 1 3 5
+Pavarde99 Vardas99 5 10 4 1 5 5 8 9 6
+Pavarde100 Vardas100 5 9
+Pavarde101 Vardas101 5 5 3
+Pavarde102 Vardas102 2 2 5 7 9
+Pavarde103 Vardas103 1 7 6 8 8
+Pavarde104 Vardas104 1 7 9
+Pavarde105 Vardas105 9 8 4 3 6 6
+Pavarde106 Vardas106 3 2 6 4 5
+Pavarde107 Vardas107 2 3 7 3 1
+Pavarde108 Vardas108 9 3 7
+Pavarde109 Vardas109 1 6 1 1
+Pavarde110 Vardas110 6 6
+Pavarde111 Vardas111 2 3
+Pavarde112 Vardas112 4 1 3 8 5
+Pavarde113 Vardas113 3 7 10 8 10 9
+Pavarde114 Vardas114 9 10 4 1 5
+Pavarde115 Vardas115 5 10 2
+Pavarde116 Vardas116 2 2 6 9 9 3 6 1 4
+Pavarde117 Vardas117 6 1 4
+Pavarde118 Vardas118 6 4 7 6 7
+Pavarde119 Vardas119 5 5 9 8
+Pavarde120 Vardas120 4 6 4 4 8
+Pavarde121 Vardas121 10 9 5 8 6
+Pavarde122 Vardas122 8 9 10
+Pavarde123 Vardas123 9 9 10 2 1
+Pavarde124 Vardas124 10 6
+Pavarde125 Vardas125 7 2 7
+Pavarde126 Vardas126 3 9 1 4 3 3 6
+Pavarde127 Vardas127 5 9 2 8
+Pavarde128 Vardas128 9 1 2 8
+Pavarde129 Vardas129 7 10 9 1 3 3 10 2
+Pavarde130 Vardas130 5 6 3
+Pavarde131 Vardas131 3 4 7
+Pavarde132 Vardas132 3 4 6 7 5
+Pavarde133 Vardas133 6 7 1 10
+Pavarde134 Vardas134 4 3 3
+Pavarde135 Vardas135 5 9 6 2 8 6 9
+Pavarde136 Vardas136 8 2 1 2
+Pavarde137 Vardas137 6 4 7
+Pavarde138 Vardas138 4 2 5 7
+Pavarde139 Vardas139 8 7 10 6
+Pavarde140 Vardas140 2 2 1 1 10
+Pavarde141 Vardas141 8 9 7 3 10 3 9
+Pavarde142 Vardas142 6 10 8 1
+Pavarde143 Vardas143 10 5 2
+Pavarde144 Vardas144 1 5
+Pavarde145 Vardas145 4 3 10 10 2
+Pavarde146 Vardas146 10 3 8 9 4 9 9
+Pavarde147 Vardas147 7 3 10 6 3 3 7
+Pavarde148 Vardas148 5 2 9 10 2 5
+Pavarde149 Vardas149 9 2 5 6 8
+Pavarde150 Vardas150 7 9 1 7 1 1 2 9
+Pavarde151 Vardas151 6 2 3 7 3
+Pavarde152 Vardas152 5 8 8
+Pavarde153 Vardas153 4 7 6 4 7 7 10 9
+Pavarde154 Vardas154 10 4 3
+Pavarde155 Vardas155 6 5 10 8
+Pavarde156 Vardas156 7 3 1 10 8
+Pavarde157 Vardas157 9 3 3 5 3
+Pavarde158 Vardas158 2 7 8 2 8
+Pavarde159 Vardas159 7 5 1 5 5 3 5 9
+Pavarde160 Vardas160 3 3 9 10 4 9 6
+Pavarde161 Vardas161 10 6 3 8 10
+Pavarde162 Vardas162 10 3 6 2
+Pavarde163 Vardas163 3 9 3
+Pavarde164 Vardas164 4 5 3 6
+Pavarde165 Vardas165 9 8 10 7 8 4
+Pavarde166 Vardas166 1 2 6 7
+Pavarde167 Vardas167 1 5 8 4 6
+Pavarde168 Vardas168 4 9
+Pavarde169 Vardas169 9 8 5 2 6
+Pavarde170 Vardas170 7 1 8
+Pavarde171 Vardas171 6 8 8 7 2
+Pavarde172 Vardas172 8 6 1 5 4
+Pavarde173 Vardas173 7 6 10
+Pavarde174 Vardas174 10 3 1 9 8
+Pavarde175 Vardas175 3 9 9 7 3
+Pavarde176 Vardas176 1 9 7
+Pavarde177 Vardas177 4 8 10 4
+Pavarde178 Vardas178 4 1 5 6 1 2
+Pavarde179 Vardas179 8 5 7
+Pavarde180 Vardas180 6 10 2 3 5
+Pavarde181 Vardas181 8 6 2 10 3 7 3
+Pavarde182 Vardas182 10 9 6 5 6 4 3 9
+Pavarde183 Vardas183 3 5
+Pavarde184 Vardas184 9 2 8 9 7 6 9
+Pavarde185 Vardas185 8 7 4 2 7 9 4
+Pavarde186 Vardas186 8 8 8 7
+Pavarde187 Vardas187 3 3
+Pavarde188 Vardas188 6 6 3 5 10 5 7
+Pavarde189 Vardas189 3 2 10 10
+Pavarde190 Vardas190 10 3 8 9 7 10
+Pavarde191 Vardas191 8 1 8 2 2
+Pavarde192 Vardas192 2 2 2 10
+Pavarde193 Vardas193 4 7 8 10 6 1
+Pavarde194 Vardas194 8 4 6
+Pavarde195 Vardas195 10 2
+Pavarde196 Vardas196 6 2 10 10 3 1
+Pavarde197 Vardas197 9 1 8 7 5
+Pavarde198 Vardas198 6 5 3 5 2 5
+Pavarde199 Vardas199 2 4 7 10
+Pavarde200 Vardas200 5 10 1 10
+Pavarde201 Vardas201 8 3 8 7 2 2 3
+Pavarde202 Vardas202 7 5 6 6 9 9
+Pavarde203 Vardas203 8 9 5 3 1 7
+Pavarde204 Vardas204 7 5
+Pavarde205 Vardas205 8 6 7 6 10
+Pavarde206 Vardas206 6 8 1 6 6 8 6
+Pavarde207 Vardas207 6 3 6
+Pavarde208 Vardas208 8 5 1 1 1 8 2
+Pavarde209 Vardas209 6 10 4 9 6
+Pavarde210 Vardas210 9 2 7 2 10 8
+Pavarde211 Vardas211 9 9 1 3
+Pavarde212 Vardas212 4 4 8
+Pavarde213 Vardas213 10 1 9
+Pavarde214 Vardas214 3 5
+Pavarde215 Vardas215 9 6 7 6 1 4
+Pavarde216 Vardas216 4 6 9 2 8
+Pavarde217 Vardas217 7 6 7 8
+Pavarde218 Vardas218 9 7 2 9 2
+Pavarde219 Vardas219 6 4 7 4 3 6 1 10
+Pavarde220 Vardas220 6 1 5 5
+Pavarde221 Vardas221 8 6 3 1 3
+Pavarde222 Vardas222 2 1
+Pavarde223 Vardas223 3 4 6 8 6 2
+Pavarde224 Vardas224 6 6
+Pavarde225 Vardas225 1 5 8 4 6 5 1 4
+Pavarde226 Vardas226 2 3 6 9 2 7
+Pavarde227 Vardas227 10 6 4 3 10 1 6 3 1
+Pavarde228 Vardas228 6 7 2 1
+Pavarde229 Vardas229 8 4 4 2 10 1
+Pavarde230 Vardas230 8 2 6 7
+Pavarde231 Vardas231 7 7 8 2 5 4
+Pavarde232 Vardas232 7 9 4 3 2 1 7
+Pavarde233 Vardas233 9 5 9 3 5 10 1 10
+Pavarde234 Vardas234 8 5
+Pavarde235 Vardas235 9 2 7
+Pavarde236 Vardas236 2 5 7
+Pavarde237 Vardas237 4 3 4
+Pavarde238 Vardas238 3 7 5 6 3 10
+Pavarde239 Vardas239 6 10 6
+Pavarde240 Vardas240 2 10
+Pavarde241 Vardas241 3 1 10
+Pavarde242 Vardas242 7 2 8 4
+Pavarde243 Vardas243 3 5 9 7 6
+Pavarde244 Vardas244 3 2 5 4 6
+Pavarde245 Vardas245 4 10 7
+Pavarde246 Vardas246 3 6
+Pavarde247 Vardas247 10 2 3 8
+Pavarde248 Vardas248 10 1 6 9 2
+Pavarde249 Vardas249 2 7 9
+Pavarde250 Vardas250 6 9 2 7 2 8 2 5 10
+Pavarde251 Vardas251 4 8 4 7 9 10
+Pavarde252 Vardas252 4 5 4 4
+Pavarde253 Vardas253 7 1 1 7
+Pavarde254 Vardas254 10 3 10 2
+Pavarde255 Vardas255 7 4 10
+Pavarde256 Vardas256 9 10 6 5 6 4 10
+Pavarde257 Vardas257 8 6 8 9
+Pavarde258 Vardas258 6 6 5
+Pavarde259 Vardas259 7 5 7
+Pavarde260 Vardas260 1 10 2
+Pavarde261 Vardas261 5 5 7 6 4 3 6 7
+Pavarde262 Vardas262 9 2 9
+Pavarde263 Vardas263 9 5 4
+Pavarde264 Vardas264 8 8 3 7
+Pavarde265 Vardas265 6 1 3 6
+Pavarde266 Vardas266 3 7
+Pavarde267 Vardas267 3 5 3 9 2 2
+Pavarde268 Vardas268 2 5
+Pavarde269 Vardas269 7 6 5 8 3 9 5 8 4
+Pavarde270 Vardas270 9 1 4
+Pavarde271 Vardas271 2 9 2 10 10 8
+Pavarde272 Vardas272 6 6 6 8
+Pavarde273 Vardas273 9 5 7 2
+Pavarde274 Vardas274 2 9 1 7 2
+Pavarde275 Vardas275 1 2 4 6 1
+Pavarde276 Vardas276 6 7 1
+Pavarde277 Vardas277 5 1 10
+Pavarde278 Vardas278 5 3
+Pavarde279 Vardas279 6 7 6 5
+Pavarde280 Vardas280 5 9 5 10
+Pavarde281 Vardas281 10 10 5 5 8 3 10
+Pavarde282 Vardas282 6 6 3
+Pavarde283 Vardas283 8 10 8 7 3 3
+Pavarde284 Vardas284 9 1 2 1 4 2
+Pavarde285 Vardas285 9 4 8 2 6
+Pavarde286 Vardas286 5 2 3 8 9 3
+Pavarde287 Vardas287 7 9 10 5 7 10
+Pavarde288 Vardas288 2 3 1 10 1 2 2
+Pavarde289 Vardas289 10 2 9 2 3
+Pavarde290 Vardas290 8 4 8 9
+Pavarde291 Vardas291 3 8 4
+Pavarde292 Vardas292 10 1 5 2 5 5 7 7
+Pavarde293 Vardas293 6 2 9
+Pavarde294 Vardas294 4 1 10 6 7 6 8
+Pavarde295 Vardas295 1 3 3
+Pavarde296 Vardas296 5 2 7 9 4
+Pavarde297 Vardas297 3 5 4 8
+Pavarde298 Vardas298 6 7 3
+Pavarde299 Vardas299 1 1
+Pavarde300 Vardas300 2 4 6 10 1
+Pavarde301 Vardas301 7 10
+Pavarde302 Vardas302 8 4 4 3 7
+Pavarde303 Vardas303 3 2 10 9
+Pavarde304 Vardas304 10 1
+Pavarde305 Vardas305 10 6 4
+Pavarde306 Vardas306 8 5
+Pavarde307 Vardas307 6 9 5
+Pavarde308 Vardas308 10 9 6 9
+Pavarde309 Vardas309 7 7
+Pavarde310 Vardas310 6 2 10 6 7
+Pavarde311 Vardas311 6 9 4
+Pavarde312 Vardas312 9 2 6 1 7 7
+Pavarde313 Vardas313 5 1 3
+Pavarde314 Vardas314 6 2
+Pavarde315 Vardas315 9 9 7 6 7 6
+Pavarde316 Vardas316 9 2 7 1 1 2 4 3
+Pavarde317 Vardas317 4 1 6 7 6 3
+Pavarde318 Vardas318 6 10 6 3
+Pavarde319 Vardas319 9 10
+Pavarde320 Vardas320 6 9 6 1
+Pavarde321 Vardas321 10 10 7
+Pavarde322 Vardas322 10 9 8 3 10
+Pavarde323 Vardas323 9 10 3 6
+Pavarde324 Vardas324 2 2 6 5 6 10 7
+Pavarde325 Vardas325 1 8 4
+Pavarde326 Vardas326 2 1 5 5 9 5
+Pavarde327 Vardas327 6 4 8 1 8 3
+Pavarde328 Vardas328 1 4 10 7
+Pavarde329 Vardas329 4 2 1 1 4 7 1 7
+Pavarde330 Vardas330 8 7
+Pavarde331 Vardas331 6 9 3
+Pavarde332 Vardas332 2 6 2 1 1 1
+Pavarde333 Vardas333 3 3 6 7
+Pavarde334 Vardas334 7 7 2 8
+Pavarde335 Vardas335 1 10 9 10 2
+Pavarde336 Vardas336 10 2 5
+Pavarde337 Vardas337 2 9 3 6
+Pavarde338 Vardas338 6 3
+Pavarde339 Vardas339 1 10 9 7
+Pavarde340 Vardas340 3 10 5
+Pavarde341 Vardas341 7 4 1 3 1
+Pavarde342 Vardas342 4 9 1 9
+Pavarde343 Vardas343 8 4 6 8 3 1
+Pavarde344 Vardas344 8 2
+Pavarde345 Vardas345 10 8
+Pavarde346 Vardas346 2 1 4 4 6 1
+Pavarde347 Vardas347 1 5 5 2 6 1 10
+Pavarde348 Vardas348 2 10 1 5
+Pavarde349 Vardas349 9 8 7 9 4
+Pavarde350 Vardas350 1 5 9 5
+Pavarde351 Vardas351 1 9 10 7 6
+Pavarde352 Vardas352 9 3
+Pavarde353 Vardas353 10 2 10
+Pavarde354 Vardas354 2 5
+Pavarde355 Vardas355 7 2 8
+Pavarde356 Vardas356 6 9 2 10 10
+Pavarde357 Vardas357 3 8 4
+Pavarde358 Vardas358 2 7 10 1 8 9 6 9 10 7
+Pavarde359 Vardas359 4 7
+Pavarde360 Vardas360 7 8 2 2
+Pavarde361 Vardas361 5 10 2 6 9 10 8
+Pavarde362 Vardas362 4 9 10 3 8
+Pavarde363 Vardas363 5 6 4
+Pavarde364 Vardas364 9 3 5 3
+Pavarde365 Vardas365 6 9 3 9
+Pavarde366 Vardas366 9 10 3 3 1 4
+Pavarde367 Vardas367 8 4 3
+Pavarde368 Vardas368 10 5 9 4
+Pavarde369 Vardas369 6 6 2
+Pavarde370 Vardas370 6 1 2 9 9
+Pavarde371 Vardas371 5 7 7
+Pavarde372 Vardas372 1 6 1
+Pavarde373 Vardas373 2 9 1 2 10 5 7
+Pavarde374 Vardas374 7 5 10 6 7
+Pavarde375 Vardas375 2 6
+Pavarde376 Vardas376 3 5 3 2 4 7 4
+Pavarde377 Vardas377 7 3 3
+Pavarde378 Vardas378 1 3 8 1 10 2 4 9 1
+Pavarde379 Vardas379 2 7 4 6 7 10
+Pavarde380 Vardas380 10 3 8 3 2
+Pavarde381 Vardas381 8 9 2 7 10
+Pavarde382 Vardas382 7 1 10 9
+Pavarde383 Vardas383 7 1 4 9 2
+Pavarde384 Vardas384 10 8
+Pavarde385 Vardas385 1 8 1
+Pavarde386 Vardas386 6 10 1
+Pavarde387 Vardas387 9 10 3 5 6
+Pavarde388 Vardas388 8 8 3
+Pavarde389 Vardas389 1 1 4 6 4 6 3
+Pavarde390 Vardas390 5 4 7 1
+Pavarde391 Vardas391 5 9 9
+Pavarde392 Vardas392 9 3 7
+Pavarde393 Vardas393 5 1 1 4
+Pavarde394 Vardas394 6 7
+Pavarde395 Vardas395 7 10 7 6
+Pavarde396 Vardas396 10 5 9 2
+Pavarde397 Vardas397 8 4 7 1 2 6 4 4
+Pavarde398 Vardas398 5 10 6 10
+Pavarde399 Vardas399 2 5 10
+Pavarde400 Vardas400 5 4 9
+Pavarde401 Vardas401 1 5 7 10 1 9
+Pavarde402 Vardas402 7 9 1 8 7 8
+Pavarde403 Vardas403 5 1 1 6
+Pavarde404 Vardas404 3 1
+Pavarde405 Vardas405 1 10 10 9
+Pavarde406 Vardas406 10 1 9 7 9 10
+Pavarde407 Vardas407 1 6 2 9 10 8 1
+Pavarde408 Vardas408 3 8 4 4 1
+Pavarde409 Vardas409 7 10 7 4 7 4 2
+Pavarde410 Vardas410 4 3 10 5 8
+Pavarde411 Vardas411 7 3 6 6 1 1 2 4
+Pavarde412 Vardas412 4 6 8 7 9 9 5
+Pavarde413 Vardas413 3 7 2 5 3
+Pavarde414 Vardas414 2 2 1 8 10
+Pavarde415 Vardas415 10 10 1 7 3 10
+Pavarde416 Vardas416 2 5 3 5 9
+Pavarde417 Vardas417 7 7 9 9
+Pavarde418 Vardas418 8 9 9 3 2 4
+Pavarde419 Vardas419 8 1 2 10 2 1 5 5 9
+Pavarde420 Vardas420 4 1 6 4
+Pavarde421 Vardas421 9 1 5 4
+Pavarde422 Vardas422 9 4
+Pavarde423 Vardas423 9 4 10
+Pavarde424 Vardas424 4 4 8 9 1 3
+Pavarde425 Vardas425 6 8
+Pavarde426 Vardas426 8 4 8 1 4
+Pavarde427 Vardas427 4 4 10 9 10 5 4 8 7
+Pavarde428 Vardas428 5 1 8 1 3
+Pavarde429 Vardas429 8 5 1
+Pavarde430 Vardas430 5 4 3 8
+Pavarde431 Vardas431 4 9 10 6 8
+Pavarde432 Vardas432 3 8 4 2 5 4
+Pavarde433 Vardas433 8 5 4 2 8 6 5
+Pavarde434 Vardas434 2 3 4 1 1
+Pavarde435 Vardas435 10 5
+Pavarde436 Vardas436 5 5 7 4 8 8 4 5
+Pavarde437 Vardas437 1 8 10
+Pavarde438 Vardas438 5 7 6 3
+Pavarde439 Vardas439 8 8 10 8 1 10 2
+Pavarde440 Vardas440 5 2 1 10 1
+Pavarde441 Vardas441 9 2 1
+Pavarde442 Vardas442 4 6 1 5 2 5 4 6
+Pavarde443 Vardas443 6 1 6 8 8 6
+Pavarde444 Vardas444 7 1 4 10 2
+Pavarde445 Vardas445 8 10 2 9
+Pavarde446 Vardas446 3 1
+Pavarde447 Vardas447 7 4 4 1 1 6 5
+Pavarde448 Vardas448 3 10 3 2
+Pavarde449 Vardas449 4 2 6 9 6 10 2
+Pavarde450 Vardas450 8 8 8 8 3
+Pavarde451 Vardas451 9 7 2 6 2
+Pavarde452 Vardas452 3 5 7 5 2
+Pavarde453 Vardas453 10 5 3 4 1
+Pavarde454 Vardas454 5 7 1 6 10
+Pavarde455 Vardas455 10 6 1 7 8 6
+Pavarde456 Vardas456 2 9 2 8 6
+Pavarde457 Vardas457 4 2 2 6 8
+Pavarde458 Vardas458 8 8 4
+Pavarde459 Vardas459 8 3 9 8
+Pavarde460 Vardas460 2 2 5 8 3 1 10 2
+Pavarde461 Vardas461 6 10 7 1 6 6
+Pavarde462 Vardas462 5 4 1 2 7 7
+Pavarde463 Vardas463 2 1 6
+Pavarde464 Vardas464 10 8 5 5
+Pavarde465 Vardas465 10 7 2 1
+Pavarde466 Vardas466 1 1
+Pavarde467 Vardas467 6 1
+Pavarde468 Vardas468 3 2 3 9 8
+Pavarde469 Vardas469 1 4 9 6
+Pavarde470 Vardas470 7 1 9 2 6 4
+Pavarde471 Vardas471 8 4 9 1 3 9
+Pavarde472 Vardas472 5 3 7 7 7 3 9 8
+Pavarde473 Vardas473 3 3
+Pavarde474 Vardas474 5 2 9 6 3 1 9 3
+Pavarde475 Vardas475 2 4 5 7 8 9 4
+Pavarde476 Vardas476 8 8 8 2
+Pavarde477 Vardas477 3 2 5 3 10 4
+Pavarde478 Vardas478 6 1 8 6 1
+Pavarde479 Vardas479 2 9 1 4 2 9
+Pavarde480 Vardas480 7 6 8 10 2 2 1
+Pavarde481 Vardas481 6 10 6 4 5 4 7
+Pavarde482 Vardas482 9 10 10
+Pavarde483 Vardas483 1 3 7 7
+Pavarde484 Vardas484 5 8 8 10 3
+Pavarde485 Vardas485 6 5 10
+Pavarde486 Vardas486 1 4 2 5 5 2
+Pavarde487 Vardas487 9 4 10 8
+Pavarde488 Vardas488 4 3 8 2
+Pavarde489 Vardas489 6 9 1 5 5
+Pavarde490 Vardas490 7 4 3 7 8 7 2
+Pavarde491 Vardas491 10 4 6 4 4 7 3 4
+Pavarde492 Vardas492 1 6
+Pavarde493 Vardas493 7 8 5 3 6
+Pavarde494 Vardas494 4 7
+Pavarde495 Vardas495 3 3 3
+Pavarde496 Vardas496 4 2 3 6 8 3
+Pavarde497 Vardas497 1 5 8 8 8 4
+Pavarde498 Vardas498 2 9 5 1 4 1 4 6
+Pavarde499 Vardas499 7 4 8 3
+Pavarde500 Vardas500 9 8 1 2 1 6 7
+Pavarde501 Vardas501 2 7 7 10 7
+Pavarde502 Vardas502 1 1 7 8 3
+Pavarde503 Vardas503 7 10 10
+Pavarde504 Vardas504 9 3 1 7 2 9
+Pavarde505 Vardas505 2 3 1 9 10 6
+Pavarde506 Vardas506 10 5
+Pavarde507 Vardas507 10 6 9 8
+Pavarde508 Vardas508 5 5 4
+Pavarde509 Vardas509 9 10
+Pavarde510 Vardas510 5 8 10 10 1 4 10
+Pavarde511 Vardas511 10 9 7
+Pavarde512 Vardas512 7 6 10 10 10
+Pavarde513 Vardas513 7 8 1 3 8
+Pavarde514 Vardas514 1 10 6 4
+Pavarde515 Vardas515 2 2 4 2 1 1
+Pavarde516 Vardas516 5 6 8 3 4 10
+Pavarde517 Vardas517 4 5 1 9 3 3 8
+Pavarde518 Vardas518 4 2 1 10
+Pavarde519 Vardas519 6 2 5
+Pavarde520 Vardas520 5 3
+Pavarde521 Vardas521 10 2 2 4 10 10
+Pavarde522 Vardas522 8 9 9 7
+Pavarde523 Vardas523 10 7 10 5 5
+Pavarde524 Vardas524 4 5 5 1 7
+Pavarde525 Vardas525 1 7
+Pavarde526 Vardas526 5 10 6 7
+Pavarde527 Vardas527 2 2 8 8 3 7
+Pavarde528 Vardas528 2 5 8 6
+Pavarde529 Vardas529 9 3 4 7 5
+Pavarde530 Vardas530 6 6 10 10 2 3 5 1 1
+Pavarde531 Vardas531 8 2 7 10
+Pavarde532 Vardas532 8 3 8 10 7 6 2
+Pavarde533 Vardas533 2 7
+Pavarde534 Vardas534 8 3 8 1 1
+Pavarde535 Vardas535 6 4 4
+Pavarde536 Vardas536 3 5 2 8
+Pavarde537 Vardas537 1 8 2 7
+Pavarde538 Vardas538 4 1 7 8 8
+Pavarde539 Vardas539 10 5
+Pavarde540 Vardas540 1 3 6
+Pavarde541 Vardas541 3 6 3
+Pavarde542 Vardas542 2 9 9
+Pavarde543 Vardas543 1 2 2 9 3 8 7 2
+Pavarde544 Vardas544 3 8 4 8
+Pavarde545 Vardas545 4 2 5
+Pavarde546 Vardas546 10 5 2 8 4 2 3 8
+Pavarde547 Vardas547 9 10 4 6
+Pavarde548 Vardas548 6 1 1 4 5
+Pavarde549 Vardas549 6 9 7 8
+Pavarde550 Vardas550 7 2 6
+Pavarde551 Vardas551 2 9 5 6
+Pavarde552 Vardas552 8 7 4 8
+Pavarde553 Vardas553 7 1 1 2
+Pavarde554 Vardas554 6 3 7 5 4 7 4 3
+Pavarde555 Vardas555 1 9 1 9
+Pavarde556 Vardas556 8 1 4 5 1 9
+Pavarde557 Vardas557 9 1 2 9 10 4
+Pavarde558 Vardas558 10 1 10 10 10 2 7 2
+Pavarde559 Vardas559 4 3 9
+Pavarde560 Vardas560 9 6 8 2 6 3
+Pavarde561 Vardas561 9 1 6 6
+Pavarde562 Vardas562 3 5 3 6 10 3
+Pavarde563 Vardas563 1 2 6 2 9
+Pavarde564 Vardas564 4 10
+Pavarde565 Vardas565 9 2 1 5 6 6 9
+Pavarde566 Vardas566 8 7 6
+Pavarde567 Vardas567 5 9 3
+Pavarde568 Vardas568 6 2 2 9 4
+Pavarde569 Vardas569 5 3 3 3 3
+Pavarde570 Vardas570 4 2 9 10 10 6 2 2
+Pavarde571 Vardas571 8 5
+Pavarde572 Vardas572 8 6 2 4 4 4
+Pavarde573 Vardas573 3 8 9 2 3
+Pavarde574 Vardas574 3 1 8
+Pavarde575 Vardas575 6 9 2 4
+Pavarde576 Vardas576 9 2 4
+Pavarde577 Vardas577 4 5 4 5
+Pavarde578 Vardas578 10 4 8 4 10
+Pavarde579 Vardas579 10 4 6 9 9
+Pavarde580 Vardas580 9 4 1 4 3 9
+Pavarde581 Vardas581 8 1 4
+Pavarde582 Vardas582 10 2 6 7 9
+Pavarde583 Vardas583 7 4 4 10 6
+Pavarde584 Vardas584 9 1 6 2 10 5 9
+Pavarde585 Vardas585 4 2 5 9 2
+Pavarde586 Vardas586 10 8 5
+Pavarde587 Vardas587 3 2 3 5
+Pavarde588 Vardas588 1 10 10 9
+Pavarde589 Vardas589 7 2 9 1
+Pavarde590 Vardas590 3 1
+Pavarde591 Vardas591 5 9 2
+Pavarde592 Vardas592 4 3 10 3 2 9 3 3
+Pavarde593 Vardas593 7 4 9 9 6
+Pavarde594 Vardas594 4 2 2
+Pavarde595 Vardas595 10 5 4 4 4 9 4 9 2
+Pavarde596 Vardas596 3 3 7 8 3 7 1
+Pavarde597 Vardas597 4 1 2 10
+Pavarde598 Vardas598 9 2 1 8 4 8
+Pavarde599 Vardas599 9 4 4 3 1 5 8
+Pavarde600 Vardas600 8 9 8 9 8 4 4 1
+Pavarde601 Vardas601 2 8 5
+Pavarde602 Vardas602 1 8 6 5
+Pavarde603 Vardas603 10 8 10 6 5 6
+Pavarde604 Vardas604 4 2 10
+Pavarde605 Vardas605 8 8 4
+Pavarde606 Vardas606 1 1 2 10 7 8
+Pavarde607 Vardas607 9 4 7 8
+Pavarde608 Vardas608 4 1 4 5 1
+Pavarde609 Vardas609 9 3 6 10 7
+Pavarde610 Vardas610 5 4 10 6 10
+Pavarde611 Vardas611 3 9 1
+Pavarde612 Vardas612 10 5 6 7 2 2 5
+Pavarde613 Vardas613 7 9 8 5 9 8
+Pavarde614 Vardas614 6 6 6 9
+Pavarde615 Vardas615 4 10 4 6
+Pavarde616 Vardas616 5 4 9 4 5
+Pavarde617 Vardas617 5 8 5 3 10
+Pavarde618 Vardas618 9 8 7 4
+Pavarde619 Vardas619 10 10
+Pavarde620 Vardas620 3 7
+Pavarde621 Vardas621 7 3 10 4 3
+Pavarde622 Vardas622 1 4 5 5 4 9 7
+Pavarde623 Vardas623 9 5 6 6 3 1
+Pavarde624 Vardas624 9 10 9 6 5 10
+Pavarde625 Vardas625 9 6 4 4 4
+Pavarde626 Vardas626 10 3 1 2 8
+Pavarde627 Vardas627 10 1 2 3 6
+Pavarde628 Vardas628 6 1 2 2 10 5 9
+Pavarde629 Vardas629 8 7 5 10 3
+Pavarde630 Vardas630 5 10 8 7 1 3 3 8
+Pavarde631 Vardas631 10 2 10 5
+Pavarde632 Vardas632 4 10
+Pavarde633 Vardas633 6 1 7 8 8 8 3
+Pavarde634 Vardas634 2 9 2
+Pavarde635 Vardas635 9 1 1 5 6
+Pavarde636 Vardas636 3 3 5 5 10 8
+Pavarde637 Vardas637 6 9 10 1 9
+Pavarde638 Vardas638 9 7 1 6 2
+Pavarde639 Vardas639 7 4 9 4 6 8
+Pavarde640 Vardas640 3 4 3
+Pavarde641 Vardas641 7 5 8 4 6 3 9
+Pavarde642 Vardas642 6 4 9 1
+Pavarde643 Vardas643 3 9 5 9 8
+Pavarde644 Vardas644 8 4
+Pavarde645 Vardas645 7 3
+Pavarde646 Vardas646 7 4 3
+Pavarde647 Vardas647 10 8 2 6 1 1
+Pavarde648 Vardas648 10 3 1 9 4
+Pavarde649 Vardas649 3 6 9 8 1
+Pavarde650 Vardas650 1 1 5 4
+Pavarde651 Vardas651 1 8 9 7 1 7 2
+Pavarde652 Vardas652 4 3 7 2 10
+Pavarde653 Vardas653 3 6 10 2 1
+Pavarde654 Vardas654 7 3 3 9 6 2
+Pavarde655 Vardas655 3 6 7 1
+Pavarde656 Vardas656 9 2 9 10
+Pavarde657 Vardas657 2 4 2
+Pavarde658 Vardas658 2 4 10 8 9
+Pavarde659 Vardas659 5 6 5 4 5
+Pavarde660 Vardas660 7 10 5 2 3
+Pavarde661 Vardas661 9 7 3 3
+Pavarde662 Vardas662 2 6 10 10 9 4
+Pavarde663 Vardas663 10 9 1
+Pavarde664 Vardas664 8 4 3 8 5 3 9 3
+Pavarde665 Vardas665 10 8 6 5
+Pavarde666 Vardas666 2 9 6
+Pavarde667 Vardas667 9 9 5 7
+Pavarde668 Vardas668 7 7 7 7 3 5
+Pavarde669 Vardas669 6 5 9 1
+Pavarde670 Vardas670 2 3 10 2 2
+Pavarde671 Vardas671 4 1 7
+Pavarde672 Vardas672 2 6 5
+Pavarde673 Vardas673 8 1 6 8
+Pavarde674 Vardas674 9 5 1 5 5
+Pavarde675 Vardas675 5 4 9 1 10
+Pavarde676 Vardas676 2 1 2 5 9 3 2 3 10
+Pavarde677 Vardas677 6 10 2 8 7
+Pavarde678 Vardas678 8 7 7 10 3 2
+Pavarde679 Vardas679 10 10 7 2 3 3 4 6
+Pavarde680 Vardas680 4 8 10 3 1 6
+Pavarde681 Vardas681 7 3 7 7 4
+Pavarde682 Vardas682 7 4 8
+Pavarde683 Vardas683 3 5 3
+Pavarde684 Vardas684 1 5 7 7 1
+Pavarde685 Vardas685 8 1 10 7 6
+Pavarde686 Vardas686 10 1 9 7 3
+Pavarde687 Vardas687 2 9 5
+Pavarde688 Vardas688 6 9
+Pavarde689 Vardas689 8 7 8 6 5
+Pavarde690 Vardas690 9 4 2 6 10 6
+Pavarde691 Vardas691 8 1 2 10 6
+Pavarde692 Vardas692 6 10 4 5 9 6 6
+Pavarde693 Vardas693 10 4
+Pavarde694 Vardas694 4 7 4 5
+Pavarde695 Vardas695 6 1 9 3 4
+Pavarde696 Vardas696 5 5 8 7 5 8 10
+Pavarde697 Vardas697 5 1 9 3
+Pavarde698 Vardas698 7 3 2 5
+Pavarde699 Vardas699 1 1 9 6 3 3
+Pavarde700 Vardas700 7 8 5
+Pavarde701 Vardas701 3 1 10 5
+Pavarde702 Vardas702 5 4 2 10
+Pavarde703 Vardas703 10 8 2 1 5 1
+Pavarde704 Vardas704 2 1 5
+Pavarde705 Vardas705 8 10 3 4
+Pavarde706 Vardas706 10 7 5 8
+Pavarde707 Vardas707 2 9 5 8 7 4
+Pavarde708 Vardas708 3 10 8
+Pavarde709 Vardas709 3 3 5
+Pavarde710 Vardas710 6 8 4
+Pavarde711 Vardas711 7 10 10 7 7
+Pavarde712 Vardas712 7 9 8 7 1
+Pavarde713 Vardas713 10 7 4 9 3
+Pavarde714 Vardas714 3 8 2
+Pavarde715 Vardas715 6 10 2 7 1
+Pavarde716 Vardas716 10 8 2 2 4
+Pavarde717 Vardas717 5 8
+Pavarde718 Vardas718 5 9
+Pavarde719 Vardas719 2 8 8
+Pavarde720 Vardas720 3 7 2 10 6 8
+Pavarde721 Vardas721 7 6 3
+Pavarde722 Vardas722 1 2 2 5 3
+Pavarde723 Vardas723 6 7 2 7 1
+Pavarde724 Vardas724 4 7 5 4 8 6
+Pavarde725 Vardas725 6 8 4 10 5
+Pavarde726 Vardas726 5 10 5 1
+Pavarde727 Vardas727 3 2 10 1 2 1
+Pavarde728 Vardas728 9 9 4 4
+Pavarde729 Vardas729 10 1 8
+Pavarde730 Vardas730 7 8 9 3 8 1
+Pavarde731 Vardas731 3 5 9 4
+Pavarde732 Vardas732 2 2 3 7 6
+Pavarde733 Vardas733 6 6 1 4 1 10
+Pavarde734 Vardas734 8 10 9 4
+Pavarde735 Vardas735 1 1 5 2 2 7 6 1 6
+Pavarde736 Vardas736 8 4 5 6
+Pavarde737 Vardas737 9 10 2 7 8 10
+Pavarde738 Vardas738 8 8 9 4 4 8 6
+Pavarde739 Vardas739 9 9 1 2 4
+Pavarde740 Vardas740 2 5 5 1
+Pavarde741 Vardas741 2 6 6 8
+Pavarde742 Vardas742 3 2 2 2
+Pavarde743 Vardas743 1 9 3
+Pavarde744 Vardas744 3 4 10 2 1
+Pavarde745 Vardas745 1 6 8 2
+Pavarde746 Vardas746 4 8
+Pavarde747 Vardas747 7 1 8 9 9 1
+Pavarde748 Vardas748 9 10 6 1 2 4 1
+Pavarde749 Vardas749 8 8 10 9
+Pavarde750 Vardas750 1 3 10 4 1 8
+Pavarde751 Vardas751 3 2 7
+Pavarde752 Vardas752 8 6 7
+Pavarde753 Vardas753 5 2 2 1 10
+Pavarde754 Vardas754 2 4 5 7 10
+Pavarde755 Vardas755 8 10 9 4
+Pavarde756 Vardas756 2 6
+Pavarde757 Vardas757 8 10 3 3 5 2
+Pavarde758 Vardas758 3 4 6 4
+Pavarde759 Vardas759 10 4 7 6
+Pavarde760 Vardas760 8 7 1 10 6 5 3
+Pavarde761 Vardas761 10 10 8
+Pavarde762 Vardas762 4 3
+Pavarde763 Vardas763 9 9 8 8 10 8 6 3 10
+Pavarde764 Vardas764 1 1 9
+Pavarde765 Vardas765 10 10 3 9 1 5
+Pavarde766 Vardas766 10 9 4 6 3 8 10 3
+Pavarde767 Vardas767 3 3 1 8 6 7 8
+Pavarde768 Vardas768 3 8 4
+Pavarde769 Vardas769 9 10 3 5 3
+Pavarde770 Vardas770 8 1 3 10
+Pavarde771 Vardas771 8 2 2 10 6
+Pavarde772 Vardas772 5 7 7 8
+Pavarde773 Vardas773 1 10 3 4
+Pavarde774 Vardas774 3 2 7
+Pavarde775 Vardas775 4 7
+Pavarde776 Vardas776 10 3 6 5 5 10
+Pavarde777 Vardas777 4 7 1 9 3
+Pavarde778 Vardas778 3 6 9 10 3 3
+Pavarde779 Vardas779 3 8 7
+Pavarde780 Vardas780 2 3 10 1 1
+Pavarde781 Vardas781 1 5 4 5 5 2
+Pavarde782 Vardas782 4 2
+Pavarde783 Vardas783 1 9 4
+Pavarde784 Vardas784 2 10 5 10 4
+Pavarde785 Vardas785 6 1 9 1 2
+Pavarde786 Vardas786 10 1
+Pavarde787 Vardas787 9 2 10 7 5 4 6
+Pavarde788 Vardas788 5 3
+Pavarde789 Vardas789 3 5 2 7 8 6 3
+Pavarde790 Vardas790 2 1
+Pavarde791 Vardas791 9 9 5 1 1 8
+Pavarde792 Vardas792 10 5
+Pavarde793 Vardas793 2 4 6 7
+Pavarde794 Vardas794 9 5 7 4 6 5
+Pavarde795 Vardas795 2 10 4
+Pavarde796 Vardas796 9 6
+Pavarde797 Vardas797 10 2 6 6 1 9
+Pavarde798 Vardas798 3 1 4
+Pavarde799 Vardas799 6 8 10 5 3
+Pavarde800 Vardas800 8 10 5
+Pavarde801 Vardas801 6 5 8 1 8 5
+Pavarde802 Vardas802 5 6 6 5
+Pavarde803 Vardas803 3 10 3
+Pavarde804 Vardas804 4 6 7 4
+Pavarde805 Vardas805 5 9 9 5
+Pavarde806 Vardas806 10 9 5 2 8 9 7
+Pavarde807 Vardas807 9 2 9
+Pavarde808 Vardas808 8 6
+Pavarde809 Vardas809 10 2 9 10
+Pavarde810 Vardas810 4 10 9 1
+Pavarde811 Vardas811 9 9
+Pavarde812 Vardas812 3 4 3 10
+Pavarde813 Vardas813 7 2
+Pavarde814 Vardas814 9 7 6 6 3 2 8
+Pavarde815 Vardas815 9 5 4 6 1 3 5 3
+Pavarde816 Vardas816 5 7
+Pavarde817 Vardas817 3 5 3
+Pavarde818 Vardas818 1 10 3 3 10 7
+Pavarde819 Vardas819 8 5 4 1
+Pavarde820 Vardas820 8 10 10 1 7 1 10
+Pavarde821 Vardas821 3 1 1
+Pavarde822 Vardas822 6 3 4
+Pavarde823 Vardas823 5 7 2 3 4
+Pavarde824 Vardas824 4 2 10 10
+Pavarde825 Vardas825 1 9 4 9 7 3
+Pavarde826 Vardas826 4 2 8 6 8
+Pavarde827 Vardas827 9 1 8 2 4
+Pavarde828 Vardas828 3 1 10 6 9
+Pavarde829 Vardas829 10 6 3 3 7
+Pavarde830 Vardas830 3 1 9 7 9
+Pavarde831 Vardas831 4 4 10
+Pavarde832 Vardas832 6 4 8
+Pavarde833 Vardas833 9 9 3 10 1 7 5 2 10 9
+Pavarde834 Vardas834 4 5 3 6
+Pavarde835 Vardas835 6 6 3 1
+Pavarde836 Vardas836 8 4 7 6 9 9
+Pavarde837 Vardas837 8 2 3 6 1
+Pavarde838 Vardas838 10 10 9 2 4 6
+Pavarde839 Vardas839 2 2 6
+Pavarde840 Vardas840 3 10 9 6
+Pavarde841 Vardas841 5 5 2 3 3 3
+Pavarde842 Vardas842 3 7 9 4 7
+Pavarde843 Vardas843 3 7 2 4
+Pavarde844 Vardas844 1 8 3 4 10 2 6
+Pavarde845 Vardas845 1 5 8
+Pavarde846 Vardas846 8 2 4 5
+Pavarde847 Vardas847 1 5
+Pavarde848 Vardas848 5 8 6 2 2
+Pavarde849 Vardas849 8 4 3 9 5
+Pavarde850 Vardas850 9 10 4 8 9
+Pavarde851 Vardas851 8 6 9 4 7
+Pavarde852 Vardas852 10 4 2 7 10 5 4
+Pavarde853 Vardas853 4 1 5 9 5 3
+Pavarde854 Vardas854 10 8 5 3
+Pavarde855 Vardas855 10 9 10 10 2 10
+Pavarde856 Vardas856 1 1 6 3 2 1 4 9 8
+Pavarde857 Vardas857 3 5 9
+Pavarde858 Vardas858 5 3 6 1 3
+Pavarde859 Vardas859 10 7 6
+Pavarde860 Vardas860 5 9 2 2
+Pavarde861 Vardas861 2 10 4
+Pavarde862 Vardas862 8 7 7 9 4 6 10 9
+Pavarde863 Vardas863 3 9 1 5 5
+Pavarde864 Vardas864 2 7 7 1
+Pavarde865 Vardas865 9 4 1 6
+Pavarde866 Vardas866 7 3 5 10
+Pavarde867 Vardas867 4 6 3 4 9
+Pavarde868 Vardas868 9 8 9 2 1 4 6 1
+Pavarde869 Vardas869 1 1 1 1 9 1
+Pavarde870 Vardas870 2 4 10
+Pavarde871 Vardas871 9 9 4 5 3
+Pavarde872 Vardas872 9 1 1
+Pavarde873 Vardas873 6 4 5
+Pavarde874 Vardas874 3 6 10 2
+Pavarde875 Vardas875 4 10 4 5
+Pavarde876 Vardas876 1 1 3 8 1 1
+Pavarde877 Vardas877 8 7 2 2 10
+Pavarde878 Vardas878 7 7 3 2 5
+Pavarde879 Vardas879 4 3 9
+Pavarde880 Vardas880 5 9
+Pavarde881 Vardas881 7 2 1
+Pavarde882 Vardas882 7 2 4
+Pavarde883 Vardas883 7 3 10 2 6
+Pavarde884 Vardas884 4 8 6
+Pavarde885 Vardas885 4 2 9 10
+Pavarde886 Vardas886 9 3 6
+Pavarde887 Vardas887 1 9 8 1
+Pavarde888 Vardas888 5 5 6 7 8 2 2
+Pavarde889 Vardas889 2 9 4 3 4
+Pavarde890 Vardas890 2 9 3
+Pavarde891 Vardas891 1 4 4 10
+Pavarde892 Vardas892 1 5 4 6
+Pavarde893 Vardas893 2 10 5
+Pavarde894 Vardas894 6 7 6 7 6
+Pavarde895 Vardas895 9 10 8 1 2 10
+Pavarde896 Vardas896 1 6
+Pavarde897 Vardas897 9 4 9
+Pavarde898 Vardas898 9 9 2 8 7 10
+Pavarde899 Vardas899 7 1 6
+Pavarde900 Vardas900 10 7 3 10
+Pavarde901 Vardas901 3 4 1 10 10 10 5
+Pavarde902 Vardas902 8 3 5 5 10 7
+Pavarde903 Vardas903 7 6 9
+Pavarde904 Vardas904 3 10 8 7
+Pavarde905 Vardas905 10 2
+Pavarde906 Vardas906 1 7 7 9 6
+Pavarde907 Vardas907 1 4 9 10
+Pavarde908 Vardas908 5 3 3 2 7
+Pavarde909 Vardas909 7 6 9 2 4
+Pavarde910 Vardas910 4 9 6 8 3 8 7
+Pavarde911 Vardas911 7 1 10 5 10
+Pavarde912 Vardas912 8 1 7 2 2 3
+Pavarde913 Vardas913 3 9 5 8
+Pavarde914 Vardas914 5 9 10
+Pavarde915 Vardas915 1 1 6 1
+Pavarde916 Vardas916 2 2 2 2 10 4 6
+Pavarde917 Vardas917 4 6 3
+Pavarde918 Vardas918 3 7 2 4
+Pavarde919 Vardas919 7 8 5 9
+Pavarde920 Vardas920 4 5 2
+Pavarde921 Vardas921 10 7 9 1
+Pavarde922 Vardas922 8 6 4 6
+Pavarde923 Vardas923 7 2 2 1 9 5 1 4
+Pavarde924 Vardas924 3 1 9 9 3
+Pavarde925 Vardas925 10 10 10 7 2 10 10 9 10
+Pavarde926 Vardas926 3 5 5 1
+Pavarde927 Vardas927 9 7 4 10 7
+Pavarde928 Vardas928 10 1 6
+Pavarde929 Vardas929 9 2 6 6
+Pavarde930 Vardas930 4 1 1 10 8 5
+Pavarde931 Vardas931 3 2 6 10
+Pavarde932 Vardas932 5 7 6 9 9 9 8 4
+Pavarde933 Vardas933 6 5 1 3 5 7 6
+Pavarde934 Vardas934 10 2 7 2 8 9 5 7
+Pavarde935 Vardas935 1 8 8
+Pavarde936 Vardas936 4 2 10 7 7 8
+Pavarde937 Vardas937 8 4 1
+Pavarde938 Vardas938 5 4 4 3 5 3 3
+Pavarde939 Vardas939 8 8 2 4 1 6
+Pavarde940 Vardas940 9 9 5 3 5
+Pavarde941 Vardas941 10 6 8 8 1 8 6
+Pavarde942 Vardas942 3 2 6 4 2
+Pavarde943 Vardas943 10 1 4 5 9 1
+Pavarde944 Vardas944 10 4 9 2 9
+Pavarde945 Vardas945 3 5 4 1
+Pavarde946 Vardas946 8 6 3 4
+Pavarde947 Vardas947 5 9 1 8 9
+Pavarde948 Vardas948 3 7 9
+Pavarde949 Vardas949 4 10 5 6 7 7
+Pavarde950 Vardas950 9 9
+Pavarde951 Vardas951 10 7 1 4 1 6
+Pavarde952 Vardas952 10 7 1 8
+Pavarde953 Vardas953 8 3 1
+Pavarde954 Vardas954 2 7 6 5 6
+Pavarde955 Vardas955 3 2 8 9 3 7
+Pavarde956 Vardas956 2 9 7 1 2 6 1 2
+Pavarde957 Vardas957 1 10 2 7
+Pavarde958 Vardas958 2 2 1 5
+Pavarde959 Vardas959 2 10 4 9 3
+Pavarde960 Vardas960 4 9 4 2 5 3
+Pavarde961 Vardas961 7 7 9 6 2
+Pavarde962 Vardas962 4 6 5 2 10 2
+Pavarde963 Vardas963 5 9
+Pavarde964 Vardas964 2 5 7 6 4 9
+Pavarde965 Vardas965 6 9 7 2 3
+Pavarde966 Vardas966 2 4 2 2 4 10 2 10
+Pavarde967 Vardas967 6 5 10 4 6 4 9
+Pavarde968 Vardas968 9 8 2 10 9
+Pavarde969 Vardas969 3 9 1 9
+Pavarde970 Vardas970 10 4 1 1 8 6
+Pavarde971 Vardas971 8 3 2 6 1 9
+Pavarde972 Vardas972 9 5 5 1 6 3 1
+Pavarde973 Vardas973 8 8 7 5 4 6 5 10 2 10
+Pavarde974 Vardas974 1 9 5 8
+Pavarde975 Vardas975 5 4 1 6
+Pavarde976 Vardas976 10 10 3 10 10
+Pavarde977 Vardas977 6 9 5 10
+Pavarde978 Vardas978 8 3 5 10 1
+Pavarde979 Vardas979 1 3 8 6 8
+Pavarde980 Vardas980 6 4 10 1 3 8
+Pavarde981 Vardas981 8 1 2 3 9 2
+Pavarde982 Vardas982 1 3 9
+Pavarde983 Vardas983 2 1 9 5
+Pavarde984 Vardas984 5 1 6
+Pavarde985 Vardas985 8 1 3 8
+Pavarde986 Vardas986 6 4 4
+Pavarde987 Vardas987 1 6 5 2 1 7 8 3
+Pavarde988 Vardas988 7 9 2 10 10 6
+Pavarde989 Vardas989 3 5 10
+Pavarde990 Vardas990 3 5 7 2
+Pavarde991 Vardas991 2 9 3 6
+Pavarde992 Vardas992 1 6 4 2 8 5 9
+Pavarde993 Vardas993 3 6
+Pavarde994 Vardas994 4 9
+Pavarde995 Vardas995 1 2 2 3
+Pavarde996 Vardas996 3 5 6 4 2 10 8
+Pavarde997 Vardas997 8 10 7
+Pavarde998 Vardas998 5 9 1 1 4 4 10
+Pavarde999 Vardas999 4 10

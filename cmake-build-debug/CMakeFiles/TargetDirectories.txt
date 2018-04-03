@@ -1,0 +1,3 @@
+C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/cmake-build-debug/CMakeFiles/AntraUzduotis.dir
+C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lukis/OneDrive/Documents/GitHub/AntraUzduotis/cmake-build-debug/CMakeFiles/rebuild_cache.dir

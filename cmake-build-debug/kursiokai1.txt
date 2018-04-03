@@ -1,0 +1,10 @@
+Pavarde0 Vardas0 4 2 1 2 5 9
+Pavarde1 Vardas1 2 1 10 2 1
+Pavarde2 Vardas2 5 9 3 2 1
+Pavarde3 Vardas3 4 10
+Pavarde4 Vardas4 3 4 7 9
+Pavarde5 Vardas5 1 9 2 4
+Pavarde6 Vardas6 10 4 8 10
+Pavarde7 Vardas7 5 8 5 5 5
+Pavarde8 Vardas8 9 9 10 2
+Pavarde9 Vardas9 3 10 3 9 3
