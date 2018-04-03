@@ -51,3 +51,13 @@ Programa nurodo laiką bandant abi strategijas.
   1. UI
   2. SafeInput
   3. SafeIntInput
+  
+### [**v0.5**](https://github.com/BlackDude22/AntraUzduotis/releases/tag/v0.5)<br>
+
+### [**v0.4**](https://github.com/BlackDude22/AntraUzduotis/releases/tag/v0.4)<br>
+
+### [**v0.3**](https://github.com/BlackDude22/AntraUzduotis/releases/tag/v0.3)<br>
+
+### [**v0.2**](https://github.com/BlackDude22/AntraUzduotis/releases/tag/v0.2)<br>
+
+### [**v0.1**](https://github.com/BlackDude22/AntraUzduotis/releases/tag/v0.1)<br>
